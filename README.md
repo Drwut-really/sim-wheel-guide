@@ -46,21 +46,19 @@ The validator must pass before anything is committed. If validation fails, the p
 ## Repo structure
 
 ```
-sim-wheel-guide-creation/
+sim-wheel-guide/
 ├── index.html                 ← the catalog (one self-contained HTML file)
-├── update_wheels.sh           ← bi-weekly cron entry point
+├── update_wheels.sh           ← bi-weekly cron entry point (requires .env)
+├── sync-public.sh             ← syncs public-safe files to the public branch
 ├── wheel_research_prompt.md   ← Claude Code prompt template
 ├── validate.sh                ← linter (acorn JS parse + field checks)
 ├── wrangler.jsonc             ← Cloudflare Workers config (auto-deploy on push)
 ├── _redirects                 ← Cloudflare URL redirects
+├── .env.example               ← env var names required by update_wheels.sh
 ├── README.md                  ← this file
-├── CLAUDE.md                  ← project memory (auto-loaded by Claude Code)
-├── PROJECT_STATE.md           ← session log + conventions
-├── SETUP.md                   ← one-time Pi setup
 ├── updater.log                ← run history (gitignored)
 ├── cron.log                   ← cron launch log (gitignored)
 ├── backups/                   ← bi-weekly HTML snapshots (gitignored)
-├── docs/                      ← internal planning docs
 └── research/                  ← audit trail JSONs from past expansions
 ```
 
@@ -68,7 +66,7 @@ sim-wheel-guide-creation/
 
 ## Commands reference
 
-All commands assume you're in `/mnt/internal_ssd/Projects/sim-wheel-guide-creation/` on the Pi.
+All commands assume you're in the project root (wherever you cloned the repo).
 
 ### Trigger an update manually
 
@@ -99,7 +97,7 @@ tail -20 cron.log
 crontab -l
 ```
 
-Should show: `15 6 1,15 * * /mnt/internal_ssd/Projects/sim-wheel-guide-creation/update_wheels.sh >> /mnt/internal_ssd/Projects/sim-wheel-guide-creation/cron.log 2>&1`
+Should show a line running `update_wheels.sh` at 06:15 UTC on the 1st and 15th of each month.
 
 ### Re-deploy without a content change
 
