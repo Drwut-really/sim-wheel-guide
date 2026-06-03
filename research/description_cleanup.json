@@ -1,0 +1,817 @@
+{
+  "1": {
+    "pros": ["Native SC2 plug-and-play, zero setup", "Simucube Button adjusts FFB live while racing", "5-year replaceable battery via rear access window", "Alcantara grip", "Includes SQR at no extra cost", "Adjustable dual magnetic paddles"],
+    "cons": ["Only 13 inputs (SC wireless 28-input limit)", "No display, no rev LED strip", "No SimHub support (Simucube Tuner only)", "Alcantara wears over time (gloves recommended)", "2.1 kg, heavier than most formula wheels"],
+    "notes": "First SC wireless wheel. Orange and Black editions are otherwise identical."
+  },
+  "2": {
+    "pros": ["320mm round rim suited to rally, drift, and oval", "Real leather grip allows controlled slide for counter-steer", "Native SC2 wireless, no cable setup", "Includes SQR and Simucube Button for live FFB adjust", "Long battery life (multi-year)"],
+    "cons": ["Only 13 inputs total", "No display, no rev LEDs, no SimHub", "Leather shows wear faster than alcantara", "2.1 kg, heavier than ideal for some FFB setups"],
+    "notes": "320mm round wheel with native SC wireless at a moderate price. Reasonable oval option on a budget."
+  },
+  "3": {
+    "pros": ["20 total inputs, the highest count in the SC native lineup", "18 programmable RGB LEDs via Simucube Tuner", "Hall-effect dual clutch suited to iRacing bite-point starts", "30-60 hr rechargeable battery", "CNC aluminum with alcantara or leather options", "Two 7-way switches, thumb encoders, and rotaries", "Link Hub already owned, so LEDs are unlocked immediately"],
+    "cons": ["LEDs work only via Simucube Tuner, not SimHub", "No display", "No native SimHub integration", "$800+ is steep next to Cube Controls or SRB at similar input counts", "D-shape only"],
+    "notes": "SC native wireless GT wheel. Owning the Link Hub means LED support is immediately available. Accessories: sold as Alcantara or Leather grip SKU; 18 RGB LEDs require Link Hub."
+  },
+  "4": {
+    "pros": ["Full die-cast metal frame, the most durable SC wheel currently made", "12 RGB backlit buttons with interchangeable caps", "Quiet paddles suited to long sessions", "Link Hub already owned", "Industrial-grade build"],
+    "cons": ["No display, no LED strip", "No SimHub (Simucube Tuner only)", "Newer product with less community data", "Fewer inputs than the Valo GT-23", "Compact size may not suit larger hands"],
+    "notes": "2025 release. Entry into the Savu line. Accessories: optional Savu Extra Paddle Kit adds dual clutch and extra paddles via rear Torx access."
+  },
+  "5": {
+    "pros": ["All Savu Sport features plus more encoders and 7-way switches", "Top-mounted LED telemetry strip (RPM, flags, shift)", "Metal frame with interchangeable button caps", "Strong input ergonomics in the SC native lineup", "Link Hub already owned"],
+    "cons": ["LED strip is Simucube Tuner only, not SimHub", "No display", "Premium price for a screenless wheel", "Small diameter not ideal for oval"],
+    "notes": "2025 SC native wireless wheel. LED strip differentiates it from the Sport. Accessories: optional Savu Extra Paddle Kit (shared with Sport); interchangeable RGB button caps."
+  },
+  "6": {
+    "pros": ["Only SC-ecosystem wheel with full SimHub dashboard support", "4-inch high-res display with 21 RGB shift LEDs", "No battery concerns, always powered via USB cable", "Co-branded Ascher build quality", "14 RGB automotive buttons and 4 thumb encoders", "Dual clutch with hall sensors"],
+    "cons": ["USB cable required, no wireless option", "Coiled cable needs management", "Most expensive SC-adjacent wheel", "300mm formula dimensions, not ideal for oval"],
+    "notes": "Display + SimHub option that stays in the SC ecosystem. Accessories: ships with SC Link QR; Ascher Gen6 magnetic paddle adjustable 260-800g via included spacers."
+  },
+  "7": {
+    "pros": ["LightBridge: no battery, no cable, no maintenance", "60Hz 600MHz display, the fastest on any sim wheel", "44 thumb-accessible inputs", "PitStopApp embedded in Simucube Tuner", "Galvanically isolated, no electrical noise", "Link Hub already owned", "AdaptiveBeamTec LEDs show ABS/TC around the encoders"],
+    "cons": ["Most expensive option", "Formula-only shape (285mm)", "Link QR adapter needed for SC2", "Limited availability", "PitStopApp has a learning curve"],
+    "notes": "Technologically advanced wheel for SC2. The contactless connection is unique in sim racing. Accessories: front-plate options in Twill Carbon, Forged Carbon, or CNC satin black aluminium; removable decals."
+  },
+  "8": {
+    "pros": ["Closed rubber grips suited to gloveless or sweaty hands", "2-3 year battery life (user-replaceable)", "Strong signal via external stub antenna", "SC wireless: inputs read directly in SC2", "Rear battery access without disassembly"],
+    "cons": ["Only 12 inputs, the lowest in the Ascher lineup", "No display, no LEDs, no SimHub", "Older design vs the newer F64", "285mm compact, not for oval driving"],
+    "notes": "Suited to iRacing drivers who race gloveless and want a clean grip. Accessories: Gen6 magnetic paddle force adjustable via spacers; bead-blasted shifter set available."
+  },
+  "9": {
+    "pros": ["USB-C rechargeable, up to 800 hours per charge", "Dual clutch with analog bite point", "Aerospace-grade CNC aluminum", "Rubberized ergonomic grips with thumb inserts", "More inputs than the F28 (joysticks, rotary, encoders)"],
+    "cons": ["No display, no RGB LEDs, no SimHub", "285mm formula only", "Expensive for a screenless wireless wheel"],
+    "notes": "Ascher SC wireless wheel with the highest input count and analog clutch. Accessories: Gen6 silenced magnetic paddles; force-mod kit (260-800g) and label sheet sets included."
+  },
+  "10": {
+    "pros": ["Universal: works on any wheelbase with a 70mm hub", "Same 24 inputs as the SC version, including dual analog clutch", "No battery to manage", "Suited to multi-base households"],
+    "cons": ["Cable management required", "No display, no SimHub, no LEDs"],
+    "notes": "Choose USB if you share the wheel across multiple bases. Accessories: same Gen6 paddle and force kit as F64-SC; 50 button labels and 72 encoder labels included."
+  },
+  "11": {
+    "pros": ["Ergonomics inspired by the McLaren Artura GT car", "SC wireless, native SC2 input handling", "Ascher build with adjustable magnetic paddles"],
+    "cons": ["No display, no LEDs, no SimHub", "Polarizing McLaren styling", "Fewer inputs than the Pro version"],
+    "notes": "For iRacing GT3/GTE drivers who want McLaren aesthetics with SC wireless. Accessories: shares Artura Pro/Ultimate paddle architecture; magnetic silenced double-paddle option."
+  },
+  "12": {
+    "pros": ["Highest input count in the Artura line", "German build and quality control", "McLaren GT ergonomics", "SC wireless native", "Hall sensor clutch paddles"],
+    "cons": ["No display, no LEDs, no SimHub", "Expensive for a screenless wheel"],
+    "notes": "Step up from Sport. Suited to iRacing GT drivers. Accessories: Gen6 magnetic and silenced double paddles plus motorsport clutch paddles standard."
+  },
+  "13": {
+    "pros": ["GT4 racing-inspired design", "USB for universal base compatibility", "Ascher build quality"],
+    "cons": ["No display, no SimHub", "USB cable required"],
+    "notes": "GT4 livery and design variant. Accessories: real GT4 paddle hardware; Ultimate-tier 14-button RGB plate sold as upgrade option."
+  },
+  "14": {
+    "pros": ["Brings SC wireless to any 70mm PCD motorsport rim", "24 inputs, the practical maximum for a plate", "Suited to oval when paired with a 320mm+ round rim", "No cable", "Works with Sparco P310, OMP 320, Momo Mod 78, MPI flat rim"],
+    "cons": ["Round rim purchased separately (+$150-400)", "No display, no SimHub, no LEDs"],
+    "notes": "Pair with a flat motorsport round rim for oval and Simucube use. Accessories: ships with full label/sticker pack and adjustable magnetic paddle force kit (260-800g)."
+  },
+  "15": {
+    "pros": ["Works with any 70mm PCD round rim", "No battery to manage", "Less expensive than the SC wireless plate"],
+    "cons": ["Cable management with a round rim can be tricky", "4 fewer inputs than the B24M"],
+    "notes": "Budget option for oval if you don't need wireless. Accessories: 16-input plate ships with label sheets; paddle position and resistance adjustable via spacers."
+  },
+  "16": {
+    "pros": ["1,150g with hub, light for the class", "SimHub RGB buttons for visual telemetry", "Bluetooth connects direct to PC, bypassing the wheelbase", "Real carbon fiber front plate", "ELOI shifter and clutch module, fast and adjustable", "60 hr battery"],
+    "cons": ["Bluetooth wireless adds slight latency vs wired", "No display, no LED strip", "Hub sold separately on the base version", "No analog dual clutch"],
+    "notes": "2025 release targeting the $400 segment. SimHub RGB and Cube quality at entry pricing. Accessories: 3 SKUs, Base €399, Premium Black/Blue €449 (adds metal knobs and DD hub); ELOI paddle module."
+  },
+  "17": {
+    "pros": ["Full metal rotary encoders with strong tactile click at this price", "Choice of R-Spec or GT shifters", "SimHub RGB button support", "VR-friendly under 1 kg"],
+    "cons": ["Bluetooth wireless only", "No display, no LED strip"],
+    "notes": "Step up from F-Core with metal encoders and better shifter choice. Accessories: GT (Red/Black) or Formula (Blue/Black) trim; 2 or 4 paddles; carbon-poly or full-aluminum shifters."
+  },
+  "18": {
+    "pros": ["Genuine carbon fiber front plate", "RGB buttons fully SimHub programmable", "Q-Conn magnetic cable connector", "R-Spec magnetic switchless paddles, short-throw", "Double joystick for in-car adjustments", "Die-cast aluminum body"],
+    "cons": ["Bluetooth wireless only", "No display at this price", "Pricey vs the CSX-3, which adds a touchscreen for €231 more"],
+    "notes": "Formula specialist option for open-wheel iRacing. Accessories: F-Pro Color Edition variant; Universal Clutches add-on (full-aluminum, adjustable length)."
+  },
+  "19": {
+    "pros": ["Full-color touchscreen display, unique in the Cube lineup", "SimHub full dashboard support on screen", "RGB buttons and full carbon body", "Q-Conn magnetic cable"],
+    "cons": ["Bluetooth-only wireless", "Expensive", "Display setup adds complexity"],
+    "notes": "Cube's flagship formula. Touchscreen is useful for iRacing pit settings. Accessories: CSX-3 Color Edition; CSX-3 Extra Paddle CFRP kit converts to 6-paddle (4P or 6P SKUs)."
+  },
+  "20": {
+    "pros": ["320mm GT D-shape", "SimHub RGB compatible", "Carbon fiber and aluminum throughout", "Three tiers: Sport, Cube, and Zero (max inputs)"],
+    "cons": ["Bluetooth wireless only", "No display", "D-shape only"],
+    "notes": "For iRacing GT, choose Zero for maximum inputs. Accessories: Black/Blue colorways with 2 or 4 paddle options; Universal Clutches add-on compatible."
+  },
+  "21": {
+    "pros": ["320mm round rim in Italian suede or perforated leather", "Full GT Pro V2 button box included", "SimHub RGB", "Italian-made rim", "Bluetooth wireless option"],
+    "cons": ["Bluetooth-only wireless", "No display", "More expensive than standalone round rim options"],
+    "notes": "Round wheel with full button system. Reasonable oval option. Accessories: sold in Round Suede or Perforated Leather grip SKUs (separate products)."
+  },
+  "22": {
+    "pros": ["5-inch touchscreen, the largest in the Cube lineup", "SimHub full display support", "2025 GT design", "320mm available"],
+    "cons": ["Very expensive", "Bluetooth only", "Heavy"],
+    "notes": "Cube's GT flagship. A choice if you want a display on a GT-style wheel. Accessories: front plate in 4 colors (black/white/green/red); interchangeable grip swaps 30→32cm diameter."
+  },
+  "23": {
+    "pros": ["Official Mercedes-AMG GT Track Series replica", "Same wheel used on the real GT2/GTE car", "SimHub compatible", "Paddle shifters from the real AMG car"],
+    "cons": ["Very expensive", "Bluetooth only", "No display at this price"],
+    "notes": "Official Mercedes-AMG GT Track Series replica. Accessories: official AMG sticker sheet add-on; uses real-car shifter hardware."
+  },
+  "24": {
+    "pros": ["Custom PU overmolded rubber grip with strong durability", "Magnetic shifters near-silent (rubber damped)", "SC wireless: inputs read directly in True Drive", "Consistent positive reviews", "Battery lasts 600+ hours", "Compact 300mm for GT3 positioning"],
+    "cons": ["Limited inputs vs price (15)", "No display, no SimHub, no LEDs", "Ships from Slovenia, duties for US buyers"],
+    "notes": "GT3 sim wheel with a distinctive rubber grip. Accessories: SWW2 (newer wireless) and Special USB editions sold as separate SKUs."
+  },
+  "25": {
+    "pros": ["All GT3 V2 strengths with updated SWW2 wireless hardware", "More future-proof protocol", "Wireless double clutch option available"],
+    "cons": ["Same input limitations as the V2", "No SimHub, no display"],
+    "notes": "Buy SWW2 over the original V2 if ordering new for the updated wireless hardware."
+  },
+  "26": {
+    "pros": ["Same PU rubber grip and build as the wireless version", "Universal: works on any 70mm base", "No battery, no charging"],
+    "cons": ["Cable management required", "Limited inputs", "No SimHub, no display"],
+    "notes": "Suited to households running multiple wheelbases."
+  },
+  "27": {
+    "pros": ["Built on the genuine OMP Alu GT rim", "1,400g solid mass for FFB", "Otto P9 buttons and Elma encoders", "SC wireless", "7-way joystick"],
+    "cons": ["Heavy at 1,400g", "No display, no SimHub", "EU shipping duties for US buyers"],
+    "notes": "For drivers who value FFB mass and authentic motorsport rim feel. Accessories: built on a real OMP rim; uses Otto P9 buttons and Elma encoders (no separate kits)."
+  },
+  "28": {
+    "pros": ["28 inputs, the maximum allowed on SC wireless", "All 28 inputs read natively in True Drive"],
+    "cons": ["No display, no SimHub", "Round rim sold separately", "Expensive for a button box"],
+    "notes": "If maximum SC wireless inputs is the goal, pair with a flat oval rim. Accessories: full billet aluminum 28-input plate; pair with any flat motorsport rim."
+  },
+  "29": {
+    "pros": ["More inputs than the GT3 V2", "SC wireless native", "Competition-spec build"],
+    "cons": ["No display, no SimHub"],
+    "notes": "Sits between BB Ultra and GT3 V2 in the SRB lineup. Accessories: 30cm overmolded PU rubber grip is the differentiator; no separate paddle kit."
+  },
+  "30": {
+    "pros": ["Most affordable GSI wheel and the entry into the ecosystem", "SimHub native for buttons and LEDs", "Handbuilt in Dallas TX", "6061 aluminum", "70mm PCD fits SQR directly", "Optional dual clutch"],
+    "cons": ["No display", "USB only", "Compact 290mm", "Limited 15 inputs"],
+    "notes": "GSI value pick. SimHub native suits iRacing telemetry users. Accessories: optional GSI AH50 hub upgrade for ergonomics (shared across the GSI lineup)."
+  },
+  "31": {
+    "pros": ["FPE V2 build without display, so lighter overall", "46 mappable inputs", "SimHub full support", "6.5 Ncm premium encoders", "66 addressable RGB LEDs"],
+    "cons": ["No display", "USB only"],
+    "notes": "Choose over the FPE V2 if you use an external dash and want lighter weight. Accessories: Panda/Phantom/Blackout/Prime/Custom colorways; new dust-resistant silicone grip."
+  },
+  "32": {
+    "pros": ["57 total mappable inputs", "66 individually addressable RGB LEDs via SimHub", "LCD touchscreen", "Handbuilt in Dallas TX", "6.5 Ncm encoders with strong tactile click", "Universal QR works with most wheelbases via 70mm adapter"],
+    "cons": ["USB only", "1.53 kg with dual clutch", "SimOS secondary to SimHub", "Requires 70mm adapter for SQR (or use Simucube Edition for native fit)"],
+    "notes": "Standard FPE V2, the universal-mount formula flagship. For native SC2 mounting see id 159 (Simucube Edition). Accessories: 7 colorways (Phantom/Ascent/Blackout/Prime/Suzuki/TKX/Custom); 2- or 4-paddle, alu or carbon."
+  },
+  "159": {
+    "pros": ["Same 57 inputs, 66 RGB, LCD, and 6.5 Ncm encoders as the standard FPE V2", "Integrated SQR hub mounts directly on Simucube 2, no adapter needed", "Tightest mechanical fit on the SC2 ecosystem", "Handbuilt in Dallas TX"],
+    "cons": ["Integrated SQR limits use on non-Simucube bases (vs the universal-mount standard FPE V2 at id 32)", "USB only", "1.53 kg with dual clutch", "$179 premium over the standard for the SQR integration"],
+    "notes": "FPE V2 with an integrated SQR hub that bolts directly to Simucube 2 with no adapter. Pick this over id 32 if you race exclusively on SC2."
+  },
+  "33": {
+    "pros": ["Step above the FPE V2 in ergonomics", "Handbuilt competition-grade build", "SimHub full support", "Upgraded encoders"],
+    "cons": ["Expensive", "USB only"],
+    "notes": "iRacing esports-level option. The FPE V2 covers most of the same ground for less. Accessories: Ascent/Prime/Phantom/Suzuki/TKX/Custom colorways; shares FPE V2 rotaries."
+  },
+  "34": {
+    "pros": ["GSI flagship with F1-level design", "4.3-inch LCD touchscreen and RPM LED bar", "SimHub full support", "4 or 6 carbon paddle option", "Used by IndyCar driver Tony Kanaan"],
+    "cons": ["Extremely expensive", "USB only", "Heavy"],
+    "notes": "Top-tier GSI option. Accessories: 4- or 6-paddle SKUs (alu or carbon); optional dual-clutch and top paddles add-on; AH50 hub."
+  },
+  "35": {
+    "pros": ["One-piece carbon construction (rim and face are a single unit)", "320mm round shape suited to GT, oval, and drift", "5-inch LCD touchscreen", "SimHub native", "Silicone overmolded handles for strong grip", "70mm PCD fits SQR directly"],
+    "cons": ["USB only", "Heavy at 2.0-2.12 kg", "Hand-laid carbon, slight variations expected"],
+    "notes": "All-in-one oval/GT round wheel with display and buttons. Accessories: Scarlet/Sable/Phantom/Prime colorways; one-piece molded carbon construction."
+  },
+  "36": {
+    "pros": ["Modular: swap rims (GT300, GT320, OVAL 320mm)", "Dedicated 320mm oval rim designed for stock car racing", "LED Matrix add-on for flags, gear, and alerts", "Future Powerlink QR passthrough wireless planned", "Strong future-proofing"],
+    "cons": ["No display in base config", "USB only currently", "LED Matrix sold separately"],
+    "notes": "iRacing oval option. The only system with an officially labeled 'Oval' rim SKU. Accessories: choose GT 320/300mm or Oval 320mm rim; 2 or 4 paddles in alu or carbon; interchangeable grips."
+  },
+  "37": {
+    "pros": ["Dedicated 320mm oval rim (GSI alloy)", "SimHub LEDs", "Cheaper entry vs the Ultra", "Modular: upgrade rim later", "Perforated leather or suede finish"],
+    "cons": ["No display in base", "USB only", "LED Matrix sold separately"],
+    "notes": "Value oval iRacing pick. Purpose-built oval rim with full electronics. Accessories: rim swappable to GT 320/300mm; Blackout colorway available; 2/4-paddle alu/carbon options."
+  },
+  "38": {
+    "pros": ["SimHub native for all LEDs and inputs", "13-degree slope-cut silicone grips", "MultiLink thumb encoder system", "NextGen QuickShift: short-stroke modular carbon paddles", "PitStopApp standalone software"],
+    "cons": ["No display in the PULSE version", "USB only"],
+    "notes": "Strong thumb ergonomics. PULSE is the 2026 successor to the Delta Core, sharing the chassis with refreshed electronics. Accessories: 6 carbon paddles standard; removable decal/sticker kit available."
+  },
+  "39": {
+    "pros": ["4.3-inch 60Hz 600MHz display, smoothest non-Link version", "AdaptiveBeamTec shows ABS/TC visually around encoders", "SimHub plus PitStopApp", "6 carbon paddles", "44 thumb-accessible inputs", "Interchangeable front covers (CF, forged CF, satin Al)"],
+    "cons": ["USB-C cable required", "Expensive", "Compact 295mm only"],
+    "notes": "Strong ergonomic engineering. The Delta Pro SC is the wireless/no-battery version. Accessories: front in Twill Carbon, Forged Carbon, or CNC Satin Black Alu; removable QR-latched decal kit."
+  },
+  "40": {
+    "pros": ["Strong feature set at $399 with display included", "12-layer 3D CF front (same construction as Le Mans race cars)", "110 programmable inputs", "2.99-inch color display with 5 dash pages", "56 customizable RGB LEDs via SimHub", "Includes 50mm and 70mm adapters, fits SQR directly", "Mid-race encoder remap function"],
+    "cons": ["Conspit Link 2.0 software still maturing", "Display limited to preset dash pages", "Some early reports of encoder skipping", "Smaller brand, long-term support uncertain"],
+    "notes": "Few wheels at $399 include a display alongside this build quality. Accessories: MagFlip rocker shifter with 3 force settings (550/660/900gf); Hall clutch with adjustable bite."
+  },
+  "41": {
+    "pros": ["3D ergonomic design, not flat like most formula wheels", "Patented Thump-Tick thumb encoder texture", "Patented MagFlip push-pull rocker paddles", "4.3-inch 60Hz 500-nit display with SimHub LEDs", "1,350g lightweight build", "VR-friendly: 3D layout supports finding controls without looking"],
+    "cons": ["3D design is polarizing", "Conspit Link less mature than rivals", "QR not included (extra cost)"],
+    "notes": "Distinctive 3D ergonomic formula layout. Suited to GT and prototype racing in iRacing. Accessories: dual-clutch and rocker MagFlip paddles; Enduro grip standard for endurance racing."
+  },
+  "42": {
+    "pros": ["Vertical portrait touchscreen, the first of its kind on a sim wheel", "Lightweight at ~1 kg", "SimHub full support", "Analog clutch paddles for bite-point starts", "4-inch vertical touchscreen", "20 RGB LEDs", "Universal 70mm PCD"],
+    "cons": ["Rubber grips store heat, gloves recommended", "Bottom thumb encoders sit too low", "No in-house hub, SQR sold separately", "Lower button count (7 buttons)"],
+    "notes": "French design with a vertical screen that takes some adaptation. Accessories: optional forged carbon front plate, custom front sticker, and colored grip kits."
+  },
+  "43": {
+    "pros": ["P1Sim 2026 flagship and current production model", "F1-style with full analog clutch system", "Forged carbon fiber faceplate with CNC aluminum", "4.3-inch LCD touchscreen plus SimHub", "6-paddle option (2 shift, 2 digital clutch, 2 analog)", "Hall sensor shifters", "Handbuilt in France"],
+    "cons": ["Rubber grips store heat", "No in-house hub", "Premium price"],
+    "notes": "Current 2026 P1Sim formula flagship. Replaced the older Eau Rouge / EVO / Plus lineup (see id 160, 161 for those discontinued predecessors). Accessories: 4-to-6 paddle configurable; forged carbon front plate and custom plate stickers available."
+  },
+  "160": {
+    "pros": ["Hall sensor shifters, more precise than the original Eau Rouge", "New joystick for better thumb ergonomics", "Active firmware updates while sold", "More affordable than the Plus when available"],
+    "cons": ["No longer sold by P1Sim, folded into the Eau Rouge APEX (id 43)", "Same rubber grip heat issues as the Apex", "No in-house hub"],
+    "notes": "P1Sim folded the EVO and Plus into the Apex flagship in 2026. Listed for reference and used-market searches. Buy URL points to the Apex since the EVO product page no longer exists."
+  },
+  "161": {
+    "pros": ["Highest-spec P1Sim wheel before the Apex consolidation", "Forged or twill carbon fiber option", "All EVO improvements plus added control refinements", "SimHub full support", "Used-market deals available historically"],
+    "cons": ["No longer sold by P1Sim, folded into the Eau Rouge APEX (id 43)", "Rubber grip heat issue remains", "Last new units sold below MSRP"],
+    "notes": "P1Sim folded the Plus into the Apex flagship in 2026. Listed for reference and used-market searches. Buy URL redirects to the Apex since the Plus product page no longer exists."
+  },
+  "46": {
+    "pros": ["SimHub native with strong integration", "5mm forged carbon front, CNC aluminum, 1,300g", "Elma encoders, each with 5 addressable RGB LEDs", "On-wheel bite-point calibration, no software needed", "UK handbuilt", "Polycarbonate backlit sticker system", "EVO2-SC is the SC wireless variant, pairs natively with SC2 / Link Hub"],
+    "cons": ["Smaller brand with less community data"],
+    "notes": "Strong SimHub integration. Accessories: EVO:NS dual-clutch and EVO:XN sister SKUs; optional dual-clutch carbon paddle upgrade."
+  },
+  "47": {
+    "pros": ["Genuine Sparco rim made in Italy", "310mm close to the 315mm oval target", "UK handbuilt by motorsport professionals", "Used by real racing drivers", "SimHub compatible"],
+    "cons": ["50.8mm PCD only, hub adapter needed for SQR", "Low input count for the price (12 inputs)", "4-week build lead time", "310mm is 5mm short of the 315mm target"],
+    "notes": "Authentic motorsport pedigree with a genuine Sparco rim. Accessories: optional Quick Adjust paddle upgrade; magnetic carbon-fiber paddles standard."
+  },
+  "48": {
+    "pros": ["9 rotary dials, the most of any sim wheel", "Handbuilt by motorsport professionals", "Used by professional racing drivers", "Color LCD display", "Dual clutch option"],
+    "cons": ["Very expensive ($3,000+)", "4-week build lead time", "Requires FanaLEDs, not native SimHub", "Heavy at 1.7 kg"],
+    "notes": "Bespoke motorsport-grade option for setups with unlimited budget. Accessories: shares the PSE magnetic paddle ecosystem; Quick Adjust paddle option available."
+  },
+  "49": {
+    "pros": ["Endurance racing-specific layout", "Motorsport pedigree build", "Display included"],
+    "cons": ["$3,000+ price", "4-week lead time", "FanaLEDs for display, not SimHub"],
+    "notes": "For WEC/IMSA simulation use. Accessories: shares the PSE magnetic carbon paddle hardware; Quick Adjust upgrade available across the PSE range."
+  },
+  "50": {
+    "pros": ["Exact replica of the Porsche 911 RSR 991.2", "80 individually controllable RGB LEDs", "5-inch glass-protected scratch-proof display", "SimHub and RaceDirector support", "70mm PCD: direct mount to SQR", "Used by Porsche factory drivers", "3-year warranty"],
+    "cons": ["Very expensive ($2,200+)", "2.05 kg, dampens light FFB bases", "No power switch (firmware fix promised)", "USB only", "Sold out as of April 2026, check back periodically"],
+    "notes": "Collector-tier replica. Suited to 911 RSR fans in iRacing/LMU. Accessories: 16.7M-color RGB per-button customization; 6061 aluminum shifters, clutches, and paddles all replaceable."
+  },
+  "51": {
+    "pros": ["1:1 replica using Mercedes-AMG F1 CAD data", "Handcrafted carbon fiber body throughout", "Same encoders as the real Hamilton/Russell car", "4.3-inch 60Hz display with SimHub and RaceDirector", "1,240g, light for an all-carbon build", "14 buttons and 9 rotary switches (matches the real F1)"],
+    "cons": ["$2,700, the most expensive readily available sim wheel", "Single clutch only (real F1 spec)", "280mm compact", "Silicone grips store heat", "USB only"],
+    "notes": "Authentic F1 sim option. Suited to iRacing formula specialists with a serious budget. Accessories: officially licensed; per-button RGB customization (no separate paddle/grip SKUs sold)."
+  },
+  "52": {
+    "pros": ["Value-priced at $399 with aluminum CNC buttons", "Pro driver co-designed with deep iRacing connections", "Single PCB design for reliable, simple electronics", "Hall sensors for all paddles", "Universal 70mm PCD mounts directly to SQR", "Fully replaceable silicone grips"],
+    "cons": ["No display, no SimHub, no LEDs", "Minimalist by philosophy, no extra features", "70mm hub not included", "No wireless option"],
+    "notes": "For iRacing racers who want zero distractions. Accessories: fully replaceable silicone grips (3 screws); VRS Quick Release add-on (80mm or 160mm shaft)."
+  },
+  "53": {
+    "pros": ["SC wireless plus a real motorsport round rim of choice", "Otto P9 buttons and NKK toggles, race-car switch quality", "7 color options", "Gen7 CNC magnetic paddles with carbon paddles", "Australian build, ships worldwide", "Pairs with 320mm+ round rims for oval use"],
+    "cons": ["Round rim sold separately (+$150-400)", "No display, no SimHub (SC wireless limit)", "Only 14 inputs", "Australian shipping costs"],
+    "notes": "Common path to run a Sparco P310 or OMP round rim with SC wireless. Suited to oval and rally setups."
+  },
+  "54": {
+    "pros": ["28 inputs, the maximum on the SC wireless system", "Genuine OMP Alu GT rim", "Otto P9 buttons, NKK toggles, CTS encoders", "4mm CNC carbon front plate", "7-way joystick"],
+    "cons": ["No display, no SimHub", "Premium price", "No off-the-shelf product page, contact SimCore for a custom build"],
+    "notes": "Maximum SC wireless inputs on a real OMP rim. Accessories: SimCore also sells RD22-WS (rally/drift) and STD20 plate variants for other rim shapes."
+  },
+  "55": {
+    "pros": ["Laser-scan replica of the real 720s GT3 rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "720s GT3 livery on the standard SimLine replica electronics platform. One of the more popular SimLine picks alongside the AMG GT3. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "162": {
+    "pros": ["Laser-scan replica of the real Huracan GT3 rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "Huracan GT3 livery on the standard SimLine replica electronics platform. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "163": {
+    "pros": ["Laser-scan replica of the real AMG GT3 rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "AMG GT3 livery on the standard SimLine replica electronics platform. Among the more popular SimLine SKUs. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "164": {
+    "pros": ["Laser-scan replica of the real Corvette C7R rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "Corvette C7R livery on the standard SimLine replica electronics platform. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "165": {
+    "pros": ["Laser-scan replica of the real Fiesta WRC rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "Fiesta WRC livery on the standard SimLine replica electronics platform. Rally-spec replica. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "166": {
+    "pros": ["Laser-scan replica of the real R5 WRC rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "R5 WRC livery on the standard SimLine replica electronics platform. Rally R5-class replica. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "167": {
+    "pros": ["Laser-scan replica of the real GT3-R rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "GT3-R livery on the standard SimLine replica electronics platform. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "168": {
+    "pros": ["Laser-scan replica of the real GT3 Cup rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "GT3 Cup livery on the standard SimLine replica electronics platform. Porsche Cup-style replica. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "169": {
+    "pros": ["Laser-scan replica of the real WRC/TCR rim", "Choice of Alcantara or synthetic leather grip", "Optional SC wireless module (€100 add-on)", "SimHub RGB LED support", "Polish craftsmanship at competitive pricing"],
+    "cons": ["No display", "Limited inputs (14) vs dedicated formula wheels", "Order configs can take time to spec"],
+    "notes": "WRC/TCR livery on the standard SimLine replica electronics platform with the largest SimLine rim. Accessories: Alcantara or synthetic leather grip SKU; optional NRG quick release."
+  },
+  "56": {
+    "pros": ["Custom-built to spec", "SC wireless on a genuine MPI GT-RSC-310 round rim", "Australian made", "Configurable with various rim choices"],
+    "cons": ["3-4 week build lead time", "Expensive for 12 inputs", "Australian shipping costs", "MPI rim is 310mm, just under the 315mm target"],
+    "notes": "Custom-build option suited to Australian and NZ buyers. Accessories: built to order with rim choice (MPI GT-RSC-310 or Sparco P310); 6-week build time."
+  },
+  "59": {
+    "pros": ["4.3-inch 800x480 60Hz display (RaceView technology)", "142 total inputs", "25 RGB LEDs for shift and telemetry", "Glass-fiber-reinforced body, rigid and durable", "Customizable handles sold separately", "SimHub support"],
+    "cons": ["Asetek QR adapter needed for SC2 (~$50-70)", "USB coiled cable required separately"],
+    "notes": "Strong value for a display formula wheel after factoring in the adapter. Accessories: optional 6-paddle kit (matches Invicta); LMP/Suede/XL handle SKUs; Orange Button Color Kit."
+  },
+  "60": {
+    "pros": ["Display included at $399", "110 inputs", "SimHub LEDs", "Strong USB price-to-feature ratio"],
+    "cons": ["Software still maturing", "No wireless"],
+    "notes": "Strong USB price-to-feature ratio. Accessories: same MagFlip rocker shifter (550/660/900gf) and Hall clutch architecture as the SC2 SKU."
+  },
+  "61": {
+    "pros": ["3D ergonomic layout", "4.3-inch 60Hz display", "SimHub LEDs", "Analog clutch dual paddles"],
+    "cons": ["Polarizing 3D design", "Software still maturing"],
+    "notes": "Distinctive 3D ergonomic formula layout. Accessories: dual-clutch and MagFlip rocker; Enduro grip; modular RGB ergonomic buttons."
+  },
+  "62": {
+    "pros": ["One-piece carbon 320mm round", "5-inch display", "SimHub native", "Silicone overmolded handles", "70mm PCD direct to SQR"],
+    "cons": ["2 kg+ heavy", "USB only"],
+    "notes": "All-in-one USB round wheel for oval/GT. Accessories: Scarlet/Sable/Phantom/Prime colorways; carbon one-piece construction; AH50 hub option."
+  },
+  "63": {
+    "pros": ["Oval-labeled 320mm rim", "SimHub LEDs", "Modular: swap rims", "Oval-specific alloy rim design"],
+    "cons": ["No display in base", "USB only", "LED Matrix sold separately"],
+    "notes": "USB modular oval rim option. Accessories: rim swappable GT 320/300/Oval 320mm; 2/4-paddle alu/carbon; interchangeable grip system."
+  },
+  "64": {
+    "pros": ["24 inputs including analog dual clutch", "Universal: any wheelbase", "Aerospace aluminum build", "800-hr USB-C rechargeable"],
+    "cons": ["No display, no SimHub", "Formula only"],
+    "notes": "Common Ascher choice for multi-base households. Accessories: same Gen6 magnetic paddles as the SC version; force adjustable 260-800g via included spacers."
+  },
+  "65": {
+    "pros": ["Works with any 70mm round rim", "No battery", "Pairs with real NASCAR/oval rims"],
+    "cons": ["Cable management needed", "16 inputs only"],
+    "notes": "Budget oval plate. Pair with the MPI SimMax-D flat oval rim. Accessories: position-adjustable paddles; spacer/magnet kit for resistance tuning included."
+  },
+  "66": {
+    "pros": ["Strong SimHub integration", "Forged carbon plus Elma encoders", "On-wheel bite-point calibration, no software needed", "EVO2-USB is the universal USB variant, works with any wheelbase"],
+    "cons": ["Smaller brand", "USB only"],
+    "notes": "Strong SimHub integration. Accessories: forged carbon paddle upgrade; EVO:NS dual-clutch SKU and EVO:XN variant available."
+  },
+  "67": {
+    "pros": ["60Hz 600MHz display", "PitStopApp plus SimHub", "6 carbon paddles", "44 thumb inputs", "Interchangeable front covers"],
+    "cons": ["USB-C cable", "Formula only"],
+    "notes": "Display formula USB wheel with strong ergonomics. Accessories: 3 front-plate finishes (Twill/Forged carbon, CNC alu); 6 carbon paddles; quick-release decal kit."
+  },
+  "69": {
+    "pros": ["French handcraft", "SimHub full support", "Vertical portrait screen", "F1 analog clutch system"],
+    "cons": ["Rubber grips store heat", "No in-house hub"],
+    "notes": "Arnage is P1Sim's signature model, distinct from the Eau Rouge family (consolidated into the Eau Rouge Apex flagship in 2026, see id 43). Accessories: forged carbon plate, custom stickers, colored grips, 4-to-6 paddle config across the range."
+  },
+  "70": {
+    "pros": ["$399 value-priced", "Pro driver designed", "CNC aluminum knobs throughout", "Universal 70mm"],
+    "cons": ["No display, no SimHub, no LEDs (by design)"],
+    "notes": "Budget USB formula wheel for pure driving focus. Accessories: replaceable silicone grips; VRS Quick Release add-on with 80mm or 160mm shaft option."
+  },
+  "71": {
+    "pros": ["320mm meets 315mm+ spec", "Flat alloy rim, minimal dish", "GSI specifically labels this the 'Oval' rim", "Suede or perforated leather finish", "SimHub LED support", "Modular: upgrade to Ultra later"],
+    "cons": ["No display", "USB cable required", "Moderately expensive with the Interlock base"],
+    "notes": "iRacing oval option. The only system in sim racing with an explicitly labeled 'Oval' rim SKU. Accessories: rim hot-swappable (GT 320/300/Oval 320mm); 2/4-paddle alu/carbon; interchangeable grip kit."
+  },
+  "72": {
+    "pros": ["381mm, the largest diameter available", "Zero dish, completely flat", "3 slotted ergonomic spokes for sprint car oval grip", "6x70mm and 3x51mm PCD bolts to SQR directly", "Alcantara/suede covered", "Real competition wheel for sprint, midget, and late model"],
+    "cons": ["No buttons or electronics, pair with B24M-SC or B16M-USB plate", "Total cost: $229 rim plus $634-$691 button plate", "Sprint car shape (3 spokes) different from a traditional NASCAR round", "Very large 381mm may feel bigger than a typical sim oval wheel"],
+    "notes": "Flattest, largest round rim available. If zero dish is required, this is the option. Pair with the Ascher B24M-SC for SC wireless. Accessories: also available as 14\" or 15\" NASCAR OE-14/15-RG; suede or RG grip wrap; Dual Speed Pods button add-ons."
+  },
+  "73": {
+    "pros": ["320mm round meets spec", "Flat design, no deep dish", "Native SC wireless, no cable setup", "Includes SQR and Simucube Button for FFB adjust", "Real leather grip", "Round option that stays in the SC ecosystem with no wires"],
+    "cons": ["Only 13 inputs, limited for an oval car setup", "No display, no SimHub", "Leather shows wear faster", "2.1 kg heavy"],
+    "notes": "Wireless option for oval setups. Leather grip handles big oval slides well."
+  },
+  "74": {
+    "pros": ["320mm round meets spec", "Flat design, minimal dish", "SimHub RGB button support", "Italian suede or perforated leather", "Full GT Pro V2 button box included", "Bluetooth wireless option"],
+    "cons": ["Bluetooth, not SC wireless", "Expensive for an oval setup", "No display"],
+    "notes": "Round oval wheel with SimHub. Accessories: choose Round Suede or Perforated Leather grip SKU; 2 or 4 paddle variants."
+  },
+  "75": {
+    "pros": ["320mm one-piece carbon round meets spec", "Essentially flat with silicone handles", "5-inch display plus SimHub", "40 inputs, the most of any round wheel here", "70mm PCD direct to SQR"],
+    "cons": ["2.0-2.12 kg heavy", "USB only", "Expensive for oval use"],
+    "notes": "320mm carbon round with display and buttons in a narrow market segment. Accessories: 4 colorways (Scarlet/Sable/Phantom/Prime); AH50 hub option for direct drive bases."
+  },
+  "76": {
+    "pros": ["330mm round exceeds 315mm+ spec", "One-piece CNC aluminum, 5mm carbon, and leather", "Dual-clutch paddles for race starts", "9 RGB rev lights and 12 LED encoders", "QR50/QR70 dual bolt pattern", "Modular NEO X Hub swaps to GT, Touring, or Wide rims"],
+    "cons": ["MAGLINK adapter needed for SC2 (~$50-70)", "USB cable for data unless on a Simagic base", "Verify dish on the round variant"],
+    "notes": "Strong Simagic oval candidate. The previously-listed 'XGT Pro Round 320mm' was a misnomer; the actual SKU is the NEO X-330R Classic. Accessories: hub accepts XGT, XGT Pro, XGT Pro Round, XGTR rims; modular magnetic paddle modules."
+  },
+  "77": {
+    "pros": ["Genuine OMP motorsport aluminum rim, 320mm", "Flat design, no deep dish", "Real race-car rim quality and grip", "SC wireless via the SimCore STD-WS GEN2 plate", "Or use Ascher B16-USB for a wired budget setup"],
+    "cons": ["Two separate purchases", "No display, no SimHub (SC wireless plate)", "OMP rim needs cleaning over time"],
+    "notes": "For oval drivers wanting authentic motorsport rim feel at a reasonable total cost. Accessories: SimCore plate available in 7 colorways; pair with any OMP/Sparco motorsport rim."
+  },
+  "78": {
+    "pros": ["Momo Mod 30 is the current 320mm successor to the Mod 78, near-flat dish", "Real motorsport heritage rim", "Pair with the SimCore STD-WS GEN2 SC wireless plate", "Budget entry into 320mm round"],
+    "cons": ["The Mod 78 was discontinued; the Mod 30 is the closest current match", "No display, no SimHub (SC wireless plate)", "Two separate purchases"],
+    "notes": "Classic motorsport look. The Mod 78 was discontinued; Ricmotech currently carries Mod 27/29/30/31, with the Mod 30 closest to the 320mm spec. Accessories: SimCore button plate sold in 7 colors; verify Momo Mod 78 dish flatness before ordering."
+  },
+  "79": {
+    "pros": ["Authentic NASCAR stock car wheel", "356-381mm oval diameter", "Real Cup Series wheel used by NASCAR drivers", "MPI RG grip reduces fatigue", "70mm and 51mm PCD mounts to SQR", "Dual Speed Pods available for buttons"],
+    "cons": ["3-3.25 inch deep dish, exceeds the <0.5 inch requirement", "Listed for reference only per the stated spec", "No buttons, needs Speed Pods or a separate plate"],
+    "notes": "Excluded per the dish rule. Many serious iRacing oval specialists use this exact wheel; the deep dish brings the wheel closer for arms-bent comfort over 30+ lap stints. Worth reconsidering the constraint. Accessories: optional Dual Speed Pods (drill-on button boxes); RG suede or all-suede wrap options."
+  },
+  "80": {
+    "pros": ["Affordable display-adjacent DD wheel", "18 programmable buttons", "10 high-brightness RGB RPM LEDs", "MOZA Pit House app for LED and FFB customization", "Magnetic aluminum quick release included", "Universal 70mm PCD via MOZA Universal Hub Kit"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100 extra)", "No SimHub support, MOZA Pit House software only", "No display", "Entry-level build vs premium options", "280mm compact butterfly"],
+    "notes": "Affordable feature-rich DD wheel. Add the $50 Universal Hub Kit and it bolts to SQR. Accessories: MOZA Paddles Add-on Kit upgrades to 6 paddles; pairs with the Universal Hub Kit for SC bases."
+  },
+  "81": {
+    "pros": ["310mm GT round rim, the closest to oval spec in the MOZA lineup", "HD LCD display with quad-core processor", "72 programmable inputs", "Genuine leather grip", "MOZA Pit House customizable dashboards", "RPM and telemetry LEDs"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "Hub kit mounting on SC2 requires a 70mm adapter workaround", "Display setup less mature than SimHub"],
+    "notes": "310mm round GT with display. Solid value if MOZA Pit House is acceptable instead of SimHub. Accessories: MOZA Paddles Add-on Kit (6-paddle upgrade); HD quad-core display; Universal Hub Kit option."
+  },
+  "82": {
+    "pros": ["4.3-inch 800x480 touchscreen, swipe to change dash mid-race", "1.3GHz quad-core processor, near-zero display latency", "5mm Toray carbon fiber front plate", "6-paddle setup (2 shift, 2 clutch, 2 auxiliary)", "Fully customizable dashboard in MOZA Pit House", "10 RGB RPM LEDs and 6 telemetry LEDs", "Perforated microfiber leather grips"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub support, Pit House only", "Dashboard editor has a learning curve", "280mm compact formula only"],
+    "notes": "Display formula wheel at $649. Pit House supports custom dashboards. Competes with P1Sim and the Conspit 290GP. Accessories: 6 paddle shifters standard; MOZA Paddles Add-on Kit; aluminum QR; Universal Hub Kit option."
+  },
+  "83": {
+    "pros": ["2.85-inch circular HD touchscreen, watch-face style", "300mm GT round with magnetic dual-clutch paddles", "Aerospace-grade aluminum frame", "MOZA dashboard sharing platform with importable community designs", "Dual-clutch Hall sensor paddles plus forged carbon"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub support, confirmed in reviews", "$749 plus the hub kit reaches ~$800+ without SimHub", "Mounting on SC2 requires a specific 70mm PCD workaround"],
+    "notes": "Circular display is unusual for sim racing. Without SimHub support, look at the GS V2P or FSR2 if that is required. Accessories: MOZA Paddles Add-on Kit (6-paddle upgrade); Universal Hub Kit for non-MOZA bases."
+  },
+  "84": {
+    "pros": ["2.99-inch HD display with MOZA Pit House dashboards at $329", "10 RGB buttons, 6 flag LEDs, and 12 RPM LEDs", "5 rotary encoders, 2 seven-way funky switches, and 2 thumb encoders", "Forged carbon paddles with Hall sensors and dual clutch", "Carbon-fiber-reinforced composite, lightweight and rigid", "Optional 6-paddle kit ($45) with pre-installed connectors", "Universal Hub Kit brings it to SC2"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "300mm butterfly only, not ideal for oval", "Some reports of 3-month wait for in-stock deliveries"],
+    "notes": "Released Jan 2026. Display wheel with dual clutch at $329 is strong value. Accessories: forged carbon dual-clutch paddle module; programmable as dual/single clutch or buttons."
+  },
+  "85": {
+    "pros": ["325mm round rim meets oval spec at $329", "2.99-inch HD display at this price", "10 RGB rev LEDs and 6 flag LEDs", "Forged carbon paddles, dual clutch, and expandable to 6 paddles", "6x70mm bolt pattern: rim is swappable for other 325mm rims", "Carbon-fiber-reinforced composite hub, lightweight", "Universal Hub Kit brings it to SC2"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "325mm aluminum rim, not a leather-wrapped motorsport rim feel", "Hub kit SC2 mounting requires a 70mm adapter"],
+    "notes": "Released Jan 2026. 325mm round display wheel at $329 is strong value. Swappable rim system is a bonus. Accessories: optional 6-paddle upgrade kit (DRS/KERS mappable); microfiber leather grip."
+  },
+  "86": {
+    "pros": ["Official Porsche replica using Mission R CAD data", "5.4-inch flexible OLED, the first in sim racing (720p 60Hz curved)", "Real-time telemetry: speed, lap, tire pressure, ABS, TC", "1.3GHz quad-core processor, near-zero OLED latency", "CNC aluminum frame plus dual-clutch Hall sensor paddles", "12 configurable controls and floating button design", "Launched January 2026, in stock"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "$1,299 competes with the GRID 911 RSR ($2,247) and SC x Ascher ($1,499)", "OLED long-term durability data not yet established"],
+    "notes": "First sim racing wheel with a flexible OLED display. 320mm size, official Porsche replica. Accessories: officially licensed Porsche replica; MOZA Paddles Add-on Kit compatible."
+  },
+  "87": {
+    "pros": ["Official Lamborghini Squadra Corse license", "GT round construction and aesthetics", "MOZA Pit House display with telemetry", "310mm GT round size", "Motorsport-grade aluminum and carbon"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "$1,299 for a Pit House-only display is steep", "Lamborghini-specific aesthetic limits appeal"],
+    "notes": "Official Lamborghini SCV12 replica. Suited to GT3/LMDh fans racing the Huracan or Essenza. Accessories: MOZA Paddles Add-on Kit; Universal Hub Kit for third-party DD bases."
+  },
+  "88": {
+    "pros": ["Entry price", "SimHub RGB button support", "Asetek ecosystem native for Asetek bases", "70mm adapter available for SC2", "Modular grips system, swap grip styles", "Light and ergonomic"],
+    "cons": ["Asetek QR adapter needed for SC2 (~$50-70)", "No display", "Limited input count (12)", "Grips sold separately on some configs"],
+    "notes": "Entry Asetek wheel. Strong value with SimHub support. Accessories: La Prima→Forte upgrade kit; LMP / Suede / Formula XL handle SKUs; Color Kit (button caps)."
+  },
+  "89": {
+    "pros": ["144 total input options, the largest configurable count here", "4.3-inch 60Hz display with native support for both SimHub and RaceHub", "Fully modular: swap handles (Formula, GT, LMP) without tools", "CNC aluminum chassis, rigid and lightweight", "Asetek QR included but removable, also works with 70mm SQR", "Hand-signed by CEO and assembly tech", "Swappable button color kits, grip styles, and encoder tops"],
+    "cons": ["$1,249 base, handles sold separately (~€100 extra)", "Asetek QR adapter needed for SC2 or use 70mm directly", "PC only, no console support", "Push buttons have slight wobble (noted in reviews)", "Metal rocker switches look unfinished"],
+    "notes": "Modular formula wheel. SimHub display support is the differentiator vs the Asetek Forte. Accessories: 6-paddle factory; rotaries/switches swappable from La Prima/Forte; LMP/Suede/XL handles; Color Kits."
+  },
+  "90": {
+    "pros": ["Full carbon fiber body, handmade in EU and individually crafted", "5-inch 854x480 touchscreen, the largest touch display in class", "Plus 3 OLED encoder displays, 4 screens total on one wheel", "SimHub native full support", "Dual-core ARM processor and 4-layer PCB", "Elma thumb encoders with tactile click", "4 or 6 paddle option", "Official Alpine F1 Team simulator supplier", "50.8mm and 70mm PCD fits SQR directly"],
+    "cons": ["~€1,100+ is expensive", "EU-centric, shipping plus duties for US buyers", "285mm compact formula", "3 OLED displays add configuration complexity", "Each wheel handmade, slight variation expected"],
+    "notes": "Multi-screen display: 5-inch screen plus 3 OLED encoder readouts. Alpine F1 supplier. Accessories: 4- or 6-paddle SKUs; optional 3rd cam set (push/pull/latching, 2-20 presses programmable)."
+  },
+  "91": {
+    "pros": ["Full carbon fiber body handmade in EU", "4.3-inch USBD480 LCD display, SimHub and Simdash compatible", "17 RGB LEDs (11 RPM + 6 flag), all configurable", "Elma thumb encoders (upgraded over V1)", "8-position switches (upgraded over original)", "50.8mm and 70mm PCD direct SQR mount"],
+    "cons": ["Older version vs the Mayaris 2", "No OLED encoder displays (Mayaris 2 only)", "EU-only brand, duties apply", "285mm only"],
+    "notes": "More affordable Rexing entry. 4.3-inch SimHub display at competitive pricing. Accessories: optional 3rd-paddle add-on; Hall clutch with 6 saved bite-point presets onboard."
+  },
+  "92": {
+    "pros": ["Full anodized CNC aluminum, solid build for the price", "SimHub LED compatible (buttons)", "8 configurable RGB LED buttons", "4 rotary encoders, 2 thumb encoders, and 2 five-way joysticks", "GX12-4 to USB coiled cable for universal compatibility", "70mm PCD mounts to SQR directly", "Ships from Montreal with US/Canada free shipping and duties included"],
+    "cons": ["No display", "SimHub buttons only, no full display support", "Less brand recognition vs established names", "GT only, not formula style", "~30mm dish (GT style), not flat for oval use"],
+    "notes": "Strong CNC aluminum GT wheel per dollar with SimHub LED support. Budget alternative to the Cube Controls F-Core EVO. Accessories: silicone ergo grip; adjustable-travel shift paddles; analog paddles configurable as dual clutch."
+  },
+  "93": {
+    "pros": ["SimHub full compatibility, all RGB lighting configurable via SimHub", "Thumb encoders with dual-action 8 inputs each", "Longer paddle arms with short travel for natural motorsport feel", "Stiff and lightweight, low fatigue over long stints", "Dutch manufacturer with quality engineering", "Strong community reviews for SimHub integration"],
+    "cons": ["No display", "EU-centric, import duties for US buyers", "Smaller brand vs established names, less community data", "Limited specs published publicly"],
+    "notes": "Dutch formula wheel with strong SimHub support. Accessories: 4 launch colorways; anodized knob color kits sold separately; extra magnets for shifter force."
+  },
+  "94": {
+    "pros": ["From the makers of high-end sim pedals, their first wheel", "Ultra lightweight at 1,024g including battery, paddles, and clutches", "Push and pull magnetic shifters work both directions (rally-style)", "Full-hand ergonomics with fingertip-to-palm contact", "Dual clutch paddles plus 9 configurable RGB SimHub shift lights", "60+ hr battery (600+ hr in low-power VR mode)", "Wireless via own USB dongle, no ecosystem lock-in, works on any base", "SimHub fully compatible for LEDs and telemetry", "Independent wireless: not SC wireless, not Bluetooth, own receiver"],
+    "cons": ["No display, basic 9-LED bar only", "Polarizing non-traditional shape", "290mm compact formula only", "Proprietary wireless dongle adds a USB receiver to manage", "€599 is competitive but display wheels exist at similar price", "Cable-free wireless not available (needs USB dongle in PC)"],
+    "notes": "Highly ergonomic wheel designed for driver performance. Push/pull paddles and palm-to-fingertip grip are unique. Accessories: 24 button covers swappable across 14 positions; optional 70mm-pattern hub adapter (15mm depth)."
+  },
+  "95": {
+    "pros": ["Display, dual clutch, and carbon paddles at $329", "2.99-inch HD display with MOZA Pit House dashboards", "10 RGB buttons, 5 encoders, flag LEDs, rev LEDs", "CS Pro variant is a 325mm round rim, near oval spec"],
+    "cons": ["No SimHub, MOZA Pit House only", "Needs MOZA Universal Hub Kit (~$50-100) for SC2"],
+    "notes": "See SC2 section for full MOZA lineup details. Accessories: forged carbon dual-clutch paddle module; programmable shift/clutch/button modes."
+  },
+  "96": {
+    "pros": ["144 inputs", "4.3-inch SimHub and RaceHub-compatible display", "Fully modular: swap handles, grips, buttons", "Strong customization"],
+    "cons": ["Handles sold separately", "PC only"],
+    "notes": "Modular formula wheel. See SC2 section for details. Accessories: 6-paddle factory; LMP/Suede/Formula XL handles; Orange Button Kit; rotaries swap from La Prima/Forte."
+  },
+  "97": {
+    "pros": ["5-inch touchscreen plus 3 OLED encoder displays, 4 screens total", "Full carbon fiber handmade EU", "SimHub native", "Alpine F1 Team supplier"],
+    "cons": ["EU-centric", "Expensive", "No round rim option"],
+    "notes": "Multi-screen display. See SC2 section. Accessories: 4- or 6-paddle SKUs; optional dual-action 3rd cam (push/pull/latching) for extra inputs."
+  },
+  "98": {
+    "pros": ["1,024g ultra-lightweight including everything", "Push/pull shifters", "SimHub LEDs", "Own wireless dongle, works on any base"],
+    "cons": ["No display", "Polarizing design", "Dongle uses a USB port"],
+    "notes": "See SC2 section for details. Accessories: 24 swappable button covers; optional 70→50.8mm hub adapter for non-standard quick releases."
+  },
+  "99": {
+    "pros": ["CNC aluminum at budget price", "SimHub LED buttons", "Free US/Canada shipping", "70mm PCD direct"],
+    "cons": ["No display", "GT only"],
+    "notes": "Strong-value CNC aluminum GT wheel. Accessories: silicone ergo grip; analog paddles configurable as dual clutch or two analog inputs."
+  },
+  "100": {
+    "pros": ["SimHub full support", "Distinct paddle ergonomics", "Dutch engineering"],
+    "cons": ["No display", "EU-centric"],
+    "notes": "Dutch formula wheel. See SC2 section. Accessories: 4 launch colorways; separately-sold anodized knob color kits; extra shifter-force magnets included."
+  },
+  "101": {
+    "pros": ["325mm round meets the 315mm+ spec", "Flat round rim with minimal dish, comparable to GT rims", "Display included at this price for an oval round wheel", "10 RGB rev LEDs and 6 flag LEDs", "Rim is swappable (6x70mm bolt pattern)", "Dual clutch and expandable to 6 paddles"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "Aluminum rim, less premium feel than leather-wrapped motorsport rims", "Dish depth not precisely specified (GT-style, likely 20-30mm)"],
+    "notes": "Strong-value 325mm round wheel with display. If MOZA Pit House works for you instead of SimHub, this is a strong oval wheel with a screen at the price. Accessories: optional 6-paddle Add-on Kit (DRS/KERS/setting mappable); microfiber leather grip standard."
+  },
+  "102": {
+    "pros": ["13-inch true-to-life GT round rim, the closest MOZA size to oval spec", "Aviation-grade aluminum with microfiber leather grips", "Forged carbon paddles with photoelectric sensors", "6 mechanical buttons, 2 magnetic shifters, 2 joysticks, and 2 rotary encoders", "10 RGB sequential shifter LEDs", "Wireless to MOZA bases; Hub Kit brings to SC2"],
+    "cons": ["MOZA Universal Hub Kit required for SC2 (~$50-100)", "No SimHub, MOZA Pit House only", "No display, RGB LED bar only", "Frequently sold out or waitlisted"],
+    "notes": "330mm GT round at $229 is the best price-per-mm round wheel in the MOZA lineup."
+  },
+  "103": {
+    "pros": ["330mm GT round at $229", "Forged carbon paddles", "Microfiber leather grips", "Hub Kit enables SC2 use"],
+    "cons": ["MOZA Pit House only", "Often out of stock"],
+    "notes": "See SC2 section."
+  },
+  "104": {
+    "pros": ["330mm GT round, a 13-inch standard race-rim size", "Genuine leather grips with precision stitching", "Forged carbon face plate with aluminum back plate", "10 backlit mechanical buttons (8 colors), 2 joysticks, and 2 rotary encoders", "Magnetic dual-clutch carbon paddles", "10-LED RGB sequential RPM strip"],
+    "cons": ["Hub Kit required for SC2", "No SimHub", "No display", "Genuine leather wears with extended use"],
+    "notes": "330mm leather GT round, a leather upgrade over the CS V2P."
+  },
+  "105": {
+    "pros": ["330mm genuine leather round", "Dual-clutch magnetic paddles", "10 RGB RPM LEDs", "Forged carbon face"],
+    "cons": ["MOZA Pit House only", "Hub Kit needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "106": {
+    "pros": ["Cheapest MOZA wheel, the entry into the ecosystem at $129", "Officially Xbox-licensed (works on PC too)", "Solid aluminum alloy rim", "ISF PU non-slip grips, sweat-proof", "22 customizable buttons including 2 joysticks", "10 high-brightness RGB LED beads", "Formula and 12-inch mod kits sold separately"],
+    "cons": ["Hub Kit required for SC2", "No SimHub", "No display", "280mm only", "Plastic-feeling vs higher-end MOZA"],
+    "notes": "Entry-level MOZA at $129. With the Hub Kit, the cheapest path to a 70mm SC2-compatible wheel."
+  },
+  "107": {
+    "pros": ["Cheapest MOZA wheel at $129", "Xbox and PC licensed", "22 inputs", "10 RGB LEDs"],
+    "cons": ["No SimHub", "No display", "Hub Kit needed for SC2"],
+    "notes": "See SC2 section. Entry-level value pick."
+  },
+  "108": {
+    "pros": ["Purpose-built truck sim wheel, the first of its kind", "True-to-life 400mm matches real truck cabs", "Aerospace 4mm aluminum with hand-stitched microfiber leather", "14 short-travel backlit buttons, 2 thumbwheels, and 2 joysticks", "10 RGB LED beads (16.7M colors)", "Open-ecosystem support", "MOZA Pit House customizable"],
+    "cons": ["Hub Kit required for SC2", "No SimHub", "Niche, ETS2/ATS only", "400mm too large for road racing rigs"],
+    "notes": "Specialty truck sim wheel. With the Hub Kit it attaches to SC2, one of the few real options for serious ETS2 setups."
+  },
+  "109": {
+    "pros": ["400mm truck sim specific", "Aerospace aluminum with microfiber leather", "Open ecosystem", "Truck sim wheel option"],
+    "cons": ["Truck-sim niche only", "No SimHub"],
+    "notes": "Purpose-built truck sim wheel."
+  },
+  "110": {
+    "pros": ["Officially licensed Lamborghini Revuelto CAD data", "340mm, the largest GT replica diameter in the MOZA range", "Die-cast aluminum with hand-stitched microfiber leather", "34 programmable inputs", "Carbon fiber dual-clutch magnetic Hall paddles", "Button lifecycle exceeds 300,000 cycles", "Compatible with all MOZA bases plus 3rd-party via Hub Kit"],
+    "cons": ["Hub Kit required for SC2", "No SimHub", "No display", "Road-car replica feel, not a race-car replica"],
+    "notes": "Officially licensed Revuelto. 340mm GT replica at $399, between the Essenza SCV12 ($1,299) and CS V2P ($229)."
+  },
+  "111": {
+    "pros": ["Official Lamborghini Revuelto license", "340mm GT replica", "34 inputs", "Die-cast aluminum with microfiber leather"],
+    "cons": ["No SimHub", "No display", "Hub Kit needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "112": {
+    "pros": ["4.3-inch sharp/vivid LCD telemetry display", "12 RGB buttons, 4 thumb encoders, 5 rotary buttons, and 1 seven-way", "6 paddles (2 shift, 2 custom, 2 dual-clutch), modular", "5mm carbon fiber plate, 1,700g", "SimPro Manager plus SimHub", "QR50 Simagic Quick Release", "90mm depth fits formula cockpit ergonomics"],
+    "cons": ["MAGLINK adapter required for SC2 (~$50-70)", "USB cable required for display data", "290mm compact formula only"],
+    "notes": "Top-tier Simagic formula with a 4.3-inch display. Competes with the Asetek Forte Formula Pro and MOZA FSR2."
+  },
+  "113": {
+    "pros": ["4.3-inch LCD display", "30 inputs including 5 rotaries and 6 paddles", "SimHub native", "5mm carbon plate"],
+    "cons": ["MAGLINK adapter needed for SC2", "290mm only"],
+    "notes": "See SC2 section."
+  },
+  "114": {
+    "pros": ["5mm carbon fiber plate, 1,550g", "12 customizable RGB buttons, 3 rotary encoders, 4 thumb encoders, and 1 seven-way", "Patented Hall paddle modules", "Patented soft-glow LED rev lights", "SimPro plus SimHub", "QR50 quick release", "Strong value at $359"],
+    "cons": ["No display (the FX Pro has a 4.3-inch LCD)", "Clutch paddles optional", "MAGLINK needed for SC2", "290mm compact only"],
+    "notes": "FX is the no-display version of the FX Pro at ~$200 less. Solid mid-tier formula option."
+  },
+  "115": {
+    "pros": ["5mm carbon plate at $359", "Hall paddle modules", "SimHub LEDs", "12 RGB buttons"],
+    "cons": ["No display", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "116": {
+    "pros": ["300mm GT at $259 sale price", "Carbon fiber plus silicone grip, light at 1.3 kg", "12 RGB buttons and 2 seven-way switches", "Patented Hall paddle modules", "Integrated hub plus QR50", "SimHub", "Optional clutch paddles available"],
+    "cons": ["Sale-priced; restocks may revert to $499", "No display", "MAGLINK needed for SC2"],
+    "notes": "Discounted GT-style with a formula button layout. Budget Simagic pick at sale price."
+  },
+  "117": {
+    "pros": ["300mm GT at $259", "Carbon fiber plus silicone", "12 RGB buttons", "SimHub LEDs"],
+    "cons": ["No display", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "118": {
+    "pros": ["330mm meets the 315mm+ oval spec", "Choice of D-shape or round rim", "CNC aluminum alloy rim with genuine suede grips", "4-segment Rev Light", "Patented Hall paddle modules", "Wireless data to Simagic bases", "Compatible with drift, rally, and track", "SimPro plus SimHub"],
+    "cons": ["Limited inputs (8)", "Heavy at 1.95 kg", "MAGLINK needed for SC2", "Optional clutch paddles only"],
+    "notes": "330mm round option fits oval-tab criteria. Budget round Simagic with suede grips."
+  },
+  "119": {
+    "pros": ["330mm with round option", "CNC alu plus suede", "Hall paddle modules", "Wireless to Simagic bases"],
+    "cons": ["Limited inputs", "1.95 kg heavy", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "120": {
+    "pros": ["300mm round at $289", "Lightweight magnesium-aluminum (1.45 kg)", "7 customizable RGB buttons, 2 seven-way, and 2 rotary", "Hall paddle module with adjustable paddles", "9 LED customizable RPM gauge", "Leather or suede grip options", "Multi-discipline (rally/track/drift/formula/truck)", "128 customizable button cap stickers", "QR50 quick release"],
+    "cons": ["Limited inputs vs the FX series", "No display", "MAGLINK needed for SC2"],
+    "notes": "Versatile 300mm round leather/suede. Light at 1.45 kg."
+  },
+  "121": {
+    "pros": ["300mm round", "1.45 kg lightweight", "9 RPM LEDs", "Multi-discipline"],
+    "cons": ["No display", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "122": {
+    "pros": ["Magnetic-link wireless connection to Simagic bases", "Carbon fiber and 500g trigger buttons", "Compatible with Simagic Alpha Mini/EVO bases", "SimHub support", "85% positive reviews on Simagic store", "Affordable entry to the NEO ecosystem"],
+    "cons": ["Specific button count not published on store page", "MAGLINK needed for SC2", "No display"],
+    "notes": "Entry NEO Series wheel. Confirm exact input count before final spec."
+  },
+  "123": {
+    "pros": ["Carbon fiber Neo Series", "Magnetic-link wireless", "SimHub", "85% positive reviews"],
+    "cons": ["Limited published specs", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "124": {
+    "pros": ["310mm GT round", "One-piece CNC aluminum frame", "Black synthetic leather with orange contrast stitching", "8 RGB buttons, 2 thumb encoders, 2 seven-ways, 12 LED encoders, and 9 RGB rev lights", "4 modular paddle shifters", "Wireless 2.4GHz or USB", "QR50 plus QR70 (6x70mm) compatibility", "SimPro plus SimHub", "Carbon fiber composite NEO X Hub Core"],
+    "cons": ["MAGLINK needed for SC2", "No display", "Synthetic leather, not premium-grain"],
+    "notes": "NEO X-310G is the GT-style configuration of the NEO X Hub. 70mm PCD compatible."
+  },
+  "125": {
+    "pros": ["310mm GT one-piece CNC", "34 inputs including 12 LED encoders", "9 RGB rev lights", "2.4GHz wireless or USB"],
+    "cons": ["No display", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "126": {
+    "pros": ["330mm round meets the 315mm+ oval spec", "Semi-stitched red leather grip ring", "5mm carbon, CNC aluminum, and leather/microsuede", "8 RGB buttons, 2 thumb encoders, 2 seven-ways, 12 LED encoders, and 9 RGB rev", "Dual-clutch paddles for race starts", "MAGLINK hub supports wide DD compatibility", "QR50/QR70", "SimPro plus SimHub", "Wireless power and data"],
+    "cons": ["MAGLINK needed for SC2", "No display", "Synthetic/microsuede grip"],
+    "notes": "330mm round on the NEO X Hub. Strong oval-tab candidate (matches the actual SKU previously stubbed as XGT Pro Round)."
+  },
+  "127": {
+    "pros": ["330mm round", "Dual-clutch paddles", "QR50/QR70", "SimHub LEDs"],
+    "cons": ["No display", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "129": {
+    "pros": ["330mm round built for rally and GT versatility", "Rigid one-piece CNC aluminum frame", "Black synthetic leather with orange contrast stitching", "Ultra-short travel actuation, 500g trigger weight", "34 inputs (8 RGB, 2 thumb, 2 seven-ways, 12 LED, 9 RGB rev)", "NEO X Hub modular ecosystem", "SimPro plus SimHub"],
+    "cons": ["MAGLINK needed for SC2", "No display", "Synthetic leather grip"],
+    "notes": "330mm rally configuration on the NEO X Hub. Same hub as 310G/330R/350W with a different rim and button-box combo."
+  },
+  "130": {
+    "pros": ["330mm rally round", "One-piece CNC", "500g trigger weight", "12 LED encoders"],
+    "cons": ["No display", "MAGLINK needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "131": {
+    "pros": ["350mm, the largest Simagic round for drift", "Optimized for drift control and fluid steering inputs", "Perforated synthetic leather for grip during transitions", "Angled 3 and 9 o'clock sections for wrist support", "Includes drift-spec spacer", "34 inputs on the NEO X Hub", "SimPro plus SimHub"],
+    "cons": ["MAGLINK needed for SC2", "No display", "350mm may feel oversized for road racing"],
+    "notes": "350mm drift-spec round, the largest Simagic and suited to drift."
+  },
+  "132": {
+    "pros": ["350mm drift round", "Perforated synthetic leather", "Drift-spec spacer included", "NEO X Hub modular"],
+    "cons": ["No display", "MAGLINK needed for SC2", "Large for circuit racing"],
+    "notes": "See SC2 section."
+  },
+  "133": {
+    "pros": ["330mm round meets the 315mm+ oval spec", "La Prima GT Button Box: 84 individual input options", "Round Comfort+ Rim: handcrafted, 37% recycled fibers", "Permanently fire resistant, antistatic, and durable", "Ergonomic across GT, road, rally, and drift", "Asetek QR removable, also works with 70mm PCD direct", "SimHub fully supported", "Asetek build at La Prima entry pricing"],
+    "cons": ["Asetek QR adapter needed for SC2 or 70mm direct", "Button box and rim sold separately", "No display", "Base La Prima Button Box is GT-only layout"],
+    "notes": "330mm round Asetek, a strong oval-tab Asetek candidate. Comfort+ recycled-fiber rim."
+  },
+  "134": {
+    "pros": ["330mm Round Comfort+", "84 inputs", "SimHub", "Modular button box plus rim"],
+    "cons": ["Asetek QR or 70mm needed", "Button box and rim sold separately"],
+    "notes": "See SC2 section. Also a strong oval candidate."
+  },
+  "135": {
+    "pros": ["330mm round meets spec", "Comfort+ ergonomic round, designed for GT, road, rally, and drift", "84 inputs, the largest input count among oval-tab options", "SimHub fully supported", "Asetek QR removable, also works on 70mm SQR direct", "Recycled-fiber sustainable build"],
+    "cons": ["Asetek QR or 70mm needed for SC2", "Button box and rim sold separately", "No display", "Higher cost than the NEO X-330R for similar diameter"],
+    "notes": "330mm round Asetek with the most inputs in the oval tab. Worth the cost over the Simagic NEO X-330R if you want SimHub plus an Asetek build."
+  },
+  "136": {
+    "pros": ["128 individual input options", "12 push buttons, 2 two-way toggles, 2 seven-way kinky switches, 3 rotary, and 6 thumb encoders", "49 fully customizable ARGB LEDs (rev plus flag)", "Injection-molded carbon-fiber-reinforced composite chassis with laser-etched forged carbon", "2 contactless magnetic shifter paddles", "Asetek RaceHub plus SimHub", "Asetek QR included, also fits 70mm SQR direct"],
+    "cons": ["No display (use Forte Formula Pro for the 4.3-inch LCD)", "Asetek QR needed for SC2 or 70mm direct", "Composite chassis less premium than Invicta aluminum", "Toggle switches feel exposed"],
+    "notes": "Forte Formula (no display) at $529. Mid-tier between the La Prima Formula ($249-$422) and Forte Formula Pro ($649)."
+  },
+  "137": {
+    "pros": ["128 inputs", "49 ARGB LEDs", "SimHub plus RaceHub", "Forged-carbon laser-etched chassis"],
+    "cons": ["No display", "Asetek QR or 70mm needed for SC2"],
+    "notes": "See SC2 section."
+  },
+  "139": {
+    "pros": ["4.3-inch 800x480 60Hz touch LCD", "142 inputs", "RaceView plus SimHub", "Glass-fiber-reinforced 1,160g"],
+    "cons": ["Composite shell", "No external USB", "Asetek QR or 70mm needed for SC2"],
+    "notes": "See SC2 section (id 59)."
+  },
+  "140": {
+    "pros": ["Cheapest Asetek wheel at $149", "300mm round, the entry to the Asetek round ecosystem", "21 programmable inputs (11 push, 4-way D-pad, 2 rotary, 2 magnetic shifters, start/stop)", "9 customizable aRGB rev LEDs and 4 backlit aRGB buttons", "Texturized round rim with perforated grips", "Automotive-grade injection-molded plastic housing", "Integrated quick release, cable-free", "SimHub supported"],
+    "cons": ["Asetek QR adapter needed for SC2", "Plastic housing, not premium build vs La Prima/Forte", "Limited inputs (21)", "No display"],
+    "notes": "Asetek's entry-level $149 wheel. With the QR adapter, the cheapest Asetek path to SC2."
+  },
+  "141": {
+    "pros": ["$149, the cheapest Asetek wheel", "300mm round", "21 inputs and 9 RGB rev LEDs", "Integrated QR, cable-free"],
+    "cons": ["Plastic housing", "Asetek QR or 70mm needed for SC2", "Limited inputs"],
+    "notes": "See SC2 section. Asetek entry point."
+  },
+  "142": {
+    "pros": ["29 functions (extendable +6 via PCB pads), among the highest input counts on a single button plate", "Dual-clutch system with rear-mounted bias potentiometer", "MEC/ALPS automotive-grade switches (3.5N actuation, same as TCR-class race cars)", "Two bolt patterns (3x50.8 and 6x70), pairs with formula and GT/round rims", "Forged carbon front face, single-piece CNC aluminum back", "Detachable USB cable (no fragile spiral failure point)", "Optional SC2 wireless module with external antenna"],
+    "cons": ["No display, pair with an external dash if you need telemetry", "Wireless variant adds significant cost", "Standalone plate only, rim sold separately", "No Simagic MAGLINK option, USB or SC wireless only"],
+    "notes": "Competes with the Ascher B24-SC and SimCore BB Ultra V2. SQR-direct via the 6x70 pattern."
+  },
+  "143": {
+    "pros": ["Same MEC/APEM automotive switches as the Ultimate at lower cost", "Bourns encoders with built-in push", "Single-piece CNC aluminum housing, fully rigid", "Detachable USB cable (replaceable)", "Universal mounting compatible with most rims (3x50.8 / 6x70)", "Optional SC2 wireless"],
+    "cons": ["No dual clutch (Ultimate-only feature)", "Fewer inputs than the Ultimate (~14 vs 29)", "No display", "Rim sold separately"],
+    "notes": "Entry/intermediate version of the BPv3 platform. Pairs with Simline's own bare rims (€131-€155) or any Sparco/OMP round."
+  },
+  "144": {
+    "pros": ["32cm D-shape GT rim", "Carbon panel with magnetic alu/CF paddles", "Extended Mode supports 36 inputs without a driver", "70mm bolt and universal QR", "3-year warranty"],
+    "cons": ["No display in base", "Optional clutch +€99, LEDs +€30", "SC2 needs a 70mm wheel-side QR"],
+    "notes": "All SRC wheels ship with a coiled USB cable plus an optional metal screw connector."
+  },
+  "145": {
+    "pros": ["30cm round leather grip", "Same 8-button, joystick, encoder, and CF paddles platform", "36-input Extended Mode", "Universal QR compatibility"],
+    "cons": ["No display", "Smaller than typical GT round (300mm)"],
+    "notes": "Round leather variant of the SRC platform."
+  },
+  "146": {
+    "pros": ["Suede grip variant of the Sport", "Width-adjustable shifters and depth-adjustable paddles", "Universal QR"],
+    "cons": ["No display"],
+    "notes": "Suede variant of the round Sport."
+  },
+  "147": {
+    "pros": ["29cm open-wheel formula style", "Carbon panel plus magnetic CF paddles", "Extended Mode 36 inputs", "Optional 8-LED RGB module"],
+    "cons": ["No built-in display", "Smaller diameter than typical F1 wheel"],
+    "notes": "Formula-style member of the SRC platform."
+  },
+  "148": {
+    "pros": ["33cm round, Cup-style", "Common SRC platform (8-button, joystick, encoder, CF paddles)", "Universal QR plus 70mm bolt"],
+    "cons": ["No display"],
+    "notes": "Cup/oval-style 330mm round."
+  },
+  "149": {
+    "pros": ["Large 35cm rally-spec rim", "Width-adjustable magnetic CF paddles", "36-input Extended Mode"],
+    "cons": ["No display", "350mm may not clear formula cockpits"],
+    "notes": "Largest SRC rim, rally-spec."
+  },
+  "150": {
+    "pros": ["Bring-your-own-rim plate", "8-button alu-guard, 7-way joystick, encoder, and magnetic alu/CF paddles", "Mounts 300-350mm rims with 70mm bolt", "49 reviews 5/5"],
+    "cons": ["No display in base", "Optional clutch +€99, LEDs +€30, metal connector +€15"],
+    "notes": "Direct competitor to SimCore and SimRacingBay button plates."
+  },
+  "151": {
+    "pros": ["GT-1 with integrated Leo Bodnar SLI-PRO display", "Fanaleds plus SLIMax Manager Pro support", "Same Bango-spec magnetic paddles", "Carbon panel"],
+    "cons": ["SLI-PRO is older 14-segment LED, not TFT", "No wireless option for the PRO", "€120 over the base GT-1"],
+    "notes": "PRO variants add the Leo Bodnar SLI-PRO display."
+  },
+  "152": {
+    "pros": ["Round leather sport with SLI-PRO display", "Magnetic CF paddles, dual-clutch ready", "SLIMax Manager Pro support"],
+    "cons": ["Currently sold out", "SLI-PRO is dated vs TFT options"],
+    "notes": "Leather Sport with the SLI-PRO display."
+  },
+  "153": {
+    "pros": ["Formula-style 290mm with SLI-PRO display", "Carbon panel plus Bango-spec magnetic paddles", "Width and depth-adjustable paddles"],
+    "cons": ["LED segment display, not full TFT", "€120 over the base Radical"],
+    "notes": "Formula PRO with the SLI-PRO display."
+  },
+  "154": {
+    "pros": ["Plate version with SLI-PRO display", "Bring-your-own rim 290-350mm", "Magnetic CF paddles"],
+    "cons": ["LED segment display, not TFT", "Optional clutch +€99"],
+    "notes": "Plate variant of the PRO line. Pair with any rim."
+  },
+  "155": {
+    "pros": ["Universal BT via included TP-Link UB400 dongle", "Works on any wheelbase", "~50 hr battery, front LED indicator", "8-button, joystick, encoder, and magnetic CF paddles"],
+    "cons": ["Bluetooth (not 2.4GHz proprietary), higher latency", "Requires JoyToKey for more than the native input count"],
+    "notes": "Bluetooth means it works alongside any base, no SC LightBridge or Fanatec receiver required."
+  },
+  "156": {
+    "pros": ["300mm leather round, BT wireless", "TP-Link UB400 dongle included", "~50 hr battery"],
+    "cons": ["BT latency vs proprietary RF", "No display"],
+    "notes": "Leather Sport BT wireless variant."
+  },
+  "157": {
+    "pros": ["DHP design rotates the rear hub for GT or Formula in seconds", "USB direct on PC or Logitech G Pro connector", "Italian made, BanaGrips", "Magnetic shifters with optional clutch"],
+    "cons": ["Limited button count (2 front)", "No display", "LTE variant has no electronics, rim only"],
+    "notes": "VOTA Ignition is the USB-active version; VOTA LTE is the bare 5mm carbon rim."
+  },
+  "158": {
+    "pros": ["1:1 replica of the FIA-certified Cosworth CCW Mk2 used in IndyCar/LMP2/Super Formula", "4.3-inch TFT LCD display", "2/4/6 paddle configs (shifter, dual-clutch, dual-action)", "2x Grayhill 12-dent thumb rotaries plus 4 front rotaries", "Carbon, ~1 kg, Cosworth flight case", "Re-engineered as a native USB device"],
+    "cons": ["~€9,500+, a halo product, not for typical buyers", "M5 PCD hub adapter required (not standard 70mm)", "2-year electronics warranty only", "Not SimHub-native (own software stack)"],
+    "notes": "Closest authentic IndyCar option that's a real USB box. Halo collector piece."
+  },
+  "200": {
+    "pros": ["Dynamic context LCD above each button, labels update per car/game/sim", "12 push-rotary buttons, each shows its current function on screen", "17 configurable SimHub RGB LEDs", "Full SimHub support, PC native", "Touchscreen-enabled", "Integrated 2-port USB hub reduces cable clutter", "VESA 100x100 mount fits any rig or monitor arm", "From the makers of high-end sim pedals", "Confirmed at Charlotte Sim Racing Expo May 2026"],
+    "cons": ["Not a steering wheel, side-dash panel only", "Still in final validation phase as of April 2026", "'Spring 2026' with no exact calendar date", "~€300 estimated, final price not confirmed", "Limited to PC/SimHub platform"],
+    "notes": "Upcoming Spring 2026, Charlotte Sim Racing Expo May 2026. The first product to replace static button labels with a live context display. Accessories: single USB-C; integrated 2-port USB hub; 100x100 VESA mount on rear; ~€300 launch price."
+  }
+}

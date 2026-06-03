@@ -1,0 +1,37 @@
+# Local artifacts
+*.bak
+*.tmp
+*.swp
+
+# Runtime logs
+updater.log
+cron.log
+*.log
+
+# Bi-weekly HTML snapshots
+backups/
+
+# Server state
+wheel_server.pid
+wheel_server.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local config
+.claude/
+
+# Private / sensitive files — never commit to public branch
+CLAUDE.md
+PROJECT_STATE.md
+SETUP.md
+update_wheels.sh
+docs/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
