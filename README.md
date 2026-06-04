@@ -2,7 +2,7 @@
 
 A self-contained, free catalog of sim racing steering wheels and rims. Browse it from any web browser on any device — phone, tablet, laptop, desktop. Each entry shows price, size, features, pros and cons, and a link to the manufacturer's own website.
 
-**Live page:** https://simracing-catalogue.mdw7wkp6fg.workers.dev/
+**Live page:** http://www.simgear.online or the backup https://simracing-catalogue.mdw7wkp6fg.workers.dev/
 
 ---
 
