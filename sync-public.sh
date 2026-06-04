@@ -63,11 +63,11 @@ if ! git -C "$SCRIPT_DIR" diff --cached --quiet; then
     git -C "$SCRIPT_DIR" commit -m "sync: update from main ${SYNC_DATE}"
 fi
 
-# Push to GitHub (public branch)
+# Push to GitHub (public branch content → origin main)
 if [[ -n "$PUSH_URL" ]]; then
-    git -C "$SCRIPT_DIR" push "$PUSH_URL" public
+    git -C "$SCRIPT_DIR" push "$PUSH_URL" public:main
 else
-    git -C "$SCRIPT_DIR" push origin public
+    git -C "$SCRIPT_DIR" push origin public:main
 fi
 
-echo "sync-public.sh: public branch updated and pushed."
+echo "sync-public.sh: public branch synced and pushed to origin/main."
