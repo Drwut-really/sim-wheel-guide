@@ -52,9 +52,8 @@ git -C "$SCRIPT_DIR" checkout public
 # shellcheck disable=SC2086
 git -C "$SCRIPT_DIR" checkout main -- $SAFE_FILES
 
-# Sync research/ and docs/ directories if they exist on main
+# Sync research/ directory if it exists on main (docs/ excluded — internal only)
 git -C "$SCRIPT_DIR" checkout main -- research/ 2>/dev/null || true
-git -C "$SCRIPT_DIR" checkout main -- docs/ 2>/dev/null || true
 
 # Commit if anything changed
 git -C "$SCRIPT_DIR" add -A
