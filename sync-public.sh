@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # sync-public.sh — Copies public-safe files from main to the public branch and
-# pushes to GitHub (origin). Called automatically by update_wheels.sh after each
-# cron run, or manually to force a sync.
+# pushes to GitHub (origin). Run manually to sync public-safe files.
 #
 # Usage:
 #   bash sync-public.sh [push-url]

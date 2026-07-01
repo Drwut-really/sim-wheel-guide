@@ -1,6 +1,6 @@
-# Monthly Wheel Guide Update — Research Prompt
+# Wheel Guide Update — Research Prompt
 
-You are performing the monthly update of a sim racing wheel reference catalog (all brands, all connection types).
+You are updating a sim racing wheel reference catalog (all brands, all connection types).
 
 **Today's timestamp:** {{TIMESTAMP}}
 **HTML file to update:** {{HTML_FILE}}
@@ -99,7 +99,7 @@ Add qualifying preorders to `section:"preorder"` with IDs starting at 300+.
 
 Required fields: `id, brand, model, section, subcat, conn, dia, shape, inputs, display, simhub, price, pros, cons, buy, notes`. Optional: `bt`, `lights`, `adapter`, `releaseDate`.
 
-**IMPORTANT — `isNew:true` is required on every new entry you add this run.** The bash wrapper already stripped `isNew:true` from all existing entries before you ran, so newly added entries are the only ones that should have it. Do NOT add `isNew:true` to existing entries. Do NOT add a date or emoji to the model name — the `isNew:true` flag is how new entries are surfaced in the 🆕 New tab.
+**IMPORTANT — `isNew:true` is required on every new entry you add this run.** Existing entries should not carry `isNew:true`; clear it from any that still have it so newly added entries are the only ones flagged. Do NOT add `isNew:true` to existing entries. Do NOT add a date or emoji to the model name — the `isNew:true` flag is how new entries are surfaced in the 🆕 New tab.
 
 Insert new wheels into the `WHEELS` array, just BEFORE the `];` that comes before `let currentTab`.
 
@@ -120,7 +120,7 @@ There are two date strings in the file — update **both** to today's date (form
    ... + ' brands · Last updated: {{TIMESTAMP}}';
    ```
 
-Note: the bash wrapper also stamps these via `sed` after you run, so they will always be correct — but updating them yourself keeps the file consistent if you preview locally before the wrapper runs.
+Update both stamps yourself so the file stays consistent when previewed locally.
 
 ---
 
@@ -142,7 +142,7 @@ If validation fails:
 ## Step 7 — Report
 
 Output:
-- How many new wheels added (or "none found this month")
+- How many new wheels added (or "none found this time")
 - Names of new wheels
 - Any preorders found with hard dates
 - Any notable trends or brand news
@@ -152,7 +152,7 @@ Output:
 
 ## Step 8 — Structured Summary (REQUIRED)
 
-After your narrative report, output this exact block so the wrapper script can parse it for the Discord changelog embed:
+After your narrative report, output this exact block so the update can be parsed into a changelog summary:
 
 ```
 === WHEEL UPDATE SUMMARY START ===
@@ -176,8 +176,6 @@ Rules:
 - `WHEELS_REMOVED_*` will almost always be `0` / `none` (the workflow does not normally delete entries — only flag if you removed a preorder that shipped without a real product page, or a vaporware entry)
 - `FORMAT_CHANGES` should only be non-`none` if you altered the schema, the CSS, or added/removed a section/tab — do NOT list routine field updates here
 - `NOTABLE_TRENDS` is optional color (e.g. "Three brands released wireless variants this cycle") — keep to one line
-
-The bash wrapper script will post the HTML to the catalog Discord channel and a rich-embed changelog to the personal Discord webhook.
 
 ---
 

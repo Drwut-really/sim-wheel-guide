@@ -27,19 +27,9 @@ Current size: **261 wheels** across **35+ brands** (May 2026).
 
 ---
 
-## How auto-updates work
+## Keeping it current
 
-Twice a month (1st and 15th, 06:15 UTC), a Raspberry Pi runs Claude Code against the guide. Claude:
-
-1. Searches the web for new wheels and rims across 12 targeted queries
-2. Verifies current MSRP pricing on existing entries while visiting brand sites
-3. Adds qualifying new entries to the HTML
-4. Updates the `price` field on existing entries where MSRP has changed
-5. Runs the validator (`validate.sh`)
-6. Commits and pushes to GitHub (Cloudflare auto-deploys from `main`)
-7. Posts a rich-embed changelog to Discord (added / removed / format changes / price moves ≥$150)
-
-The validator must pass before anything is committed. If validation fails, the previous HTML is restored and the run aborts.
+The catalog is reviewed and refreshed regularly — new wheels and rims are added, and prices are re-checked against manufacturer sites. Every change is validated with `validate.sh` before it is published.
 
 ---
 
@@ -48,83 +38,27 @@ The validator must pass before anything is committed. If validation fails, the p
 ```
 sim-wheel-guide/
 ├── index.html                 ← the catalog (one self-contained HTML file)
-├── update_wheels.sh           ← bi-weekly cron entry point (requires .env)
-├── sync-public.sh             ← syncs public-safe files to the public branch
-├── wheel_research_prompt.md   ← Claude Code prompt template
 ├── validate.sh                ← linter (acorn JS parse + field checks)
+├── sync-public.sh             ← syncs public-safe files to the public branch
+├── update_catalog_may2026.py  ← one-off catalog migration script (historical)
+├── wheel_research_prompt.md   ← research prompt template
 ├── wrangler.jsonc             ← Cloudflare Workers config (auto-deploy on push)
 ├── _redirects                 ← Cloudflare URL redirects
-├── .env.example               ← env var names required by update_wheels.sh
+├── CNAME                      ← custom domain for the live page
+├── .env.example               ← template of environment variable names
 ├── README.md                  ← this file
-├── updater.log                ← run history (gitignored)
-├── cron.log                   ← cron launch log (gitignored)
-├── backups/                   ← bi-weekly HTML snapshots (gitignored)
-└── research/                  ← audit trail JSONs from past expansions
+└── research/                  ← audit-trail notes from past catalog expansions
 ```
 
 ---
 
-## Commands reference
-
-All commands assume you're in the project root (wherever you cloned the repo).
-
-### Trigger an update manually
-
-```bash
-./update_wheels.sh
-```
-
-Runs the full pipeline: research → price check → validate → commit → push → Discord. Output streams to `updater.log`. Safe to run any time — backups roll the prior HTML to `backups/` before any edits.
-
-### Validate the current HTML
+## Validate the catalog
 
 ```bash
 ./validate.sh
 ```
 
-Runs the acorn JS parser plus field/ID/style checks. Prints section counts. Returns non-zero on any failure (which is what the cron uses to decide whether to restore the backup).
-
-### See the latest cron run
-
-```bash
-tail -40 updater.log
-tail -20 cron.log
-```
-
-### Check the cron schedule
-
-```bash
-crontab -l
-```
-
-Should show a line running `update_wheels.sh` at 06:15 UTC on the 1st and 15th of each month.
-
-### Re-deploy without a content change
-
-The Cloudflare Worker redeploys on every push to `main`. To force a redeploy without changing content, bump the meta-line timestamp in `index.html` and push.
-
-### Restore from backup
-
-```bash
-cp backups/simracing-wheel-guide-YYYY-MM.html index.html
-./validate.sh   # confirm the backup is still valid
-git diff index.html
-```
-
-### Rotate the GitHub PAT
-
-The PAT lives in `~/.claude/.env` (chmod 600). To rotate:
-
-```bash
-# Replace token; preserve env-var format
-printf 'GITHUB_PERSONAL_ACCESS_TOKEN=%s\n' "<new_token>" > ~/.claude/.env
-chmod 600 ~/.claude/.env
-# Verify
-source ~/.claude/.env && curl -s -H "Authorization: token $GITHUB_PERSONAL_ACCESS_TOKEN" \
-  https://api.github.com/repos/Drwut-really/sim-wheel-guide | grep full_name
-```
-
-The same token is consumed by the GitHub MCP server via `~/.claude/mcp-github-wrapper.sh`, so no other config needs updating.
+Runs the acorn JS parser plus field/ID/style checks and prints section counts. Returns non-zero on any failure.
 
 ---
 

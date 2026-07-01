@@ -211,7 +211,7 @@ NOTE: Existing entries 57, 58, 76 are stubs that lump multiple wheels into one c
 - Asetek La Prima GT Wheel (Comfort+ Round) is a **strong new oval-tab candidate** at 330mm — added to oval section as id 135.
 - Asetek Initium is the cheapest path into Asetek ecosystem at $149.
 - Asetek Invicta has 70mm PCD direct support — id 89/96 could note this in addition to the adapter requirement.
-- Two URLs returned 403 (Forte product pages on asetek.com from this Pi's IP). Used third-party retailer 6sigmasimracing.com as confirmation source for prices/specs. URLs in cards are still the canonical asetek.com URLs.
+- Two URLs returned 403 (Forte product pages on asetek.com from our IP). Used third-party retailer 6sigmasimracing.com as confirmation source for prices/specs. URLs in cards are still the canonical asetek.com URLs.
 
 ### Simagic notes
 - The Simagic GT Pro Hub ($339) is listed on the brand site but is a **hub-only product** that takes external rims (P-330R, P-330D, P-325D, P-325C). Not added as a wheel card — could be a separate "hub" entry if guide adds a hub category.
@@ -224,7 +224,7 @@ All prices are USD as of April 2026, sourced from brand official US sites (simag
 ### URL verification status
 - All 5 new MOZA URLs verified live (200 OK) on us.mozaracing.com
 - All Simagic product page URLs verified live on simagic.com
-- Asetek URLs derived from search results — direct WebFetch returned 403 from Pi's IP, but URLs are confirmed by 6sigmasimracing.com cross-reference and search-result snippets
+- Asetek URLs derived from search results — direct WebFetch returned 403 from our IP, but URLs are confirmed by 6sigmasimracing.com cross-reference and search-result snippets
 
 ### ID range used
 New regular IDs span **102–141** (40 new cards = 5 MOZA + 11 Simagic + 4 Asetek wheels, each duplicated across SC2/USB sections, plus 3 oval-section additions).
