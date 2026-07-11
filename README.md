@@ -14,7 +14,7 @@ A self-contained, free catalog of sim racing steering wheels and rims. Browse it
 | **Standalone Rims** | Bare rims that pair with a button plate |
 | **Preorders** | Upcoming wheels with confirmed release dates |
 
-Current size: **261 wheels** across **35+ brands** (May 2026).
+Current size: **270 wheels** across **35+ brands** (July 2026).
 
 ---
 
