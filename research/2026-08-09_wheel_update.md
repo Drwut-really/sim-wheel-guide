@@ -65,7 +65,72 @@ WebFetch against https://www.simracingbay.com/product/competition-wheel-v2/.
   of August 2026," but Sim-Lab's own product page still shows active "Pre-orders open" at
   the $599 sale price with no explicit ship date. Price unchanged.
 
-## Result
-270 entries, unchanged this cycle (no adds/removals). Sections: sim 165, oval 99,
+## Result (first pass)
+270 entries, unchanged this pass (no adds/removals). Sections: sim 165, oval 99,
 preorder 6. 5 price corrections applied (2 flagged ≥$150) plus 1 data-integrity rewrite
 (id 29). Review date bumped to August 9, 2026. `validate.sh` passed.
+
+---
+
+## Follow-up sweep (same day) — preorder shipping-status resolution + broader discovery
+
+### Preorder shipping-status resolution
+Checked all 6 preorder entries directly against brand sites for actual ship/in-stock
+status rather than trusting stale `releaseDate` values:
+
+- **id 318/319/320 — Simagic Zeus Formula/GT/Sport** — confirmed shipped. Brand pages show
+  plain "Add to cart" with no preorder language; corroborated by a published TweakTown
+  unboxing review and a Zeus Sport unboxing video. Moved `section:"preorder"` →
+  `"sim"`, removed `releaseDate`, dropped the stale "Pre-order — shipping begins..." con
+  line from all three. No price change (all three matched current listings exactly).
+- **id 327 — Cube Controls Phoenix** — confirmed shipped/in stock. Product page dropped
+  preorder language entirely (now "shipping available in 15 working days," a normal
+  lead time, not a preorder disclaimer); corroborated by two authorized retailers, one
+  showing a "Now In Stock" banner. Moved `section:"preorder"` → `"sim"`, removed
+  `releaseDate`, dropped the stale preorder con line, added a note on the Aug 8–23 team
+  closure. No price change.
+- **id 297 — Zen's Simwheels LMZ Evo** — still genuinely preorder per the brand's own
+  page ("Pre-Order" button, "Expected delivery starting at Mid-September"). Kept
+  `section:"preorder"`; refreshed `releaseDate` from the stale `"2026-Q2"` to `"2026-09"`
+  to match the brand's current estimate.
+- **id 326 — Sim-Lab GTSL Pro** — still genuinely preorder; the ship window slipped
+  further. Sim-Lab's own EU store now states "Preorders are now open. Shipping starts in
+  the 4th week of August" (superseding the earlier third-party "first week of August"
+  press reports); the US store shows sold out, not in-stock. Kept
+  `section:"preorder"`; refreshed `releaseDate` to `"2026-08-24"` and updated the con
+  line/notes to reflect the slip.
+- Cleared stale `isNew:true` from ids 326 and 327 (added in the 2026-07-10 cycle, not
+  this one) so the 🆕 tab reflects only genuinely new-this-run entries.
+
+### Broader discovery sweep (not time-boxed to "new since July")
+Widened the net beyond a recency filter: boutique/indie brand lists, German/French/
+Italian/Spanish regional searches for small regional makers, and oval-rim-specific
+searches targeting the catalog's thinnest subcats (`340mm` had only 1 entry vs. 49 for
+`350mm`). Nearly everything that surfaced was either already in the catalog, a reseller
+of an already-cataloged brand (Apevie, Race Anywhere, Advanced SimRacing,
+SimRacingZone.pl), console-only cosmetic mods (Acelith Design), or a boutique builder
+(Racetek Simulators) whose named wheels aren't independently purchasable — rig-bundle
+only, fails the standalone-buy-link sourcing requirement.
+
+**One genuine new-to-catalog product added:**
+- **id 328 — Cammus 345mm Universal Round Suede Steering Wheel** — bare rim, $69, 345mm,
+  universal 70×70mm 6-hole mount, 950g, suede grip over aluminum alloy. Manufacturer-direct
+  listing (cammusracing.com), meets all sourcing rules. Dish isn't explicitly published
+  but the product description ("pure round design without chamfered edges") is consistent
+  with the flat-profile bare rims already in this price bracket. Filed under `subcat:
+  "340mm"` (closest existing bucket; catalog has no 345mm-specific bucket) — bolsters the
+  catalog's thinnest oval subcat.
+
+**Considered and excluded:** Cammus GT2 ($299, 300mm, 10 RGB buttons + magnetic paddles).
+Real electronics, but locked exclusively to Cammus's own DDWB/LP wheelbases with no
+third-party adapter path and no SimHub support, from a budget/unproven brand — would also
+require inventing a new `conn` code with no existing ecosystem precedent (unlike
+`conn:"simagic"`, which serves a well-established, widely-adopted platform). Judgment
+call: excluded as too speculative for a "genuinely new and verifiable" bar; revisit if
+Cammus ships a SimHub-compatible firmware or a cross-base adapter.
+
+## Result (final)
+270 → **271 entries**. Sections: sim 169, oval 100, preorder 2 (down from 6 — 4 items
+confirmed shipped this cycle). 1 new entry added (Cammus 345mm rim, id 328, `isNew:true`).
+2 stale `isNew` flags cleared (326, 327). 2 `releaseDate` values refreshed to current
+brand-stated estimates (297, 326). `validate.sh` passed.
