@@ -86,11 +86,14 @@ the 2026-08-09 follow-up pass.
 - **Cube Controls, Ascher Racing, Asetek SimSports** — no new wheel or rim since the last
   review. Cube Controls' summer closure (Aug 8–23) is unchanged from the last cycle's note.
 
-## Discontinuations and delistings found (reported, catalog NOT edited)
+## Discontinuations and delistings found — marked in place
 
 The editorial rules in `wheel_research_prompt.md` allow `price` edits on existing entries
-and nothing else, so none of the following were applied. They are recorded here for a
-decision.
+and nothing else, so these were first reported rather than applied. **Per explicit user
+direction this cycle**, all four were then marked discontinued *in place*: each keeps its
+entry, specs and buy link untouched, and gains one `cons` line plus a `notes` sentence
+recording the delisting, the evidence date and where stock can still be found. Nothing
+was removed — the same non-destructive treatment given to id 29 on 2026-08-09.
 
 **Confirmed gone from the manufacturer's own store:**
 
@@ -111,20 +114,24 @@ decision.
 - **id 7 Simucube × BavarianSimTec Delta Pro SC** — out of stock on both Simucube stores.
   Price corrected; still catalogued.
 
-## Dead `buy` links where the product still exists (reported, not edited)
+## Dead `buy` links where the product still exists — four of seven fixed
 
-Pure URL rot from site restructures. The rules forbid editing `buy`, so these are listed
-for a decision — they are the catalog's only broken outbound links.
+Pure URL rot from site restructures; the catalog's only broken outbound links. **Per
+explicit user direction this cycle**, the four with an exact same-product replacement
+were repointed (ids 248, 249, 251, 92 — marked ✅ below, each re-verified 200 after the
+edit). The three that would change *which site* the entry points to were left alone for
+a later decision (marked ⏸), since repointing them is an editorial choice about sourcing,
+not a URL correction.
 
 | id | Entry | Current working URL |
 |----|-------|---------------------|
-| 248 | Racetech Flat Suede 350 | `racetech-usa.com/shop/accessories/steering-wheels/flat-wheel` |
-| 249 | Racetech Flat Suede 330 Flat-Bottom | `.../steering-wheels/flat-bottomed-steering-wheel-330mm` |
-| 251 | Racetech Drag 330 | `.../steering-wheels/drag-steering-wheel` |
-| 92 | VNM GT V1 | `vnmsimulation.com/product/vnm-gt-steering-wheel` (slug dropped `-v1`) |
-| 170 | Sparco P310 | Was a SimCore reseller link; Sparco's own `sparcousa.com/p-310` is live |
-| 54 | SimCore OMP GT-WS | Pointed at `simcore.com.au/contact-us/`, now 404; site uses `/product/…` paths |
-| 77 | OMP 320 Alu GT + SC Wireless Button Plate | Pointed at the delisted `std-ws-gen2-stealth` page |
+| ✅ 248 | Racetech Flat Suede 350 | `racetech-usa.com/shop/accessories/steering-wheels/flat-wheel` |
+| ✅ 249 | Racetech Flat Suede 330 Flat-Bottom | `.../steering-wheels/flat-bottomed-steering-wheel-330mm` |
+| ✅ 251 | Racetech Drag 330 | `.../steering-wheels/drag-steering-wheel` |
+| ✅ 92 | VNM GT V1 | `vnmsimulation.com/product/vnm-gt-steering-wheel` (slug dropped `-v1`) |
+| ⏸ 170 | Sparco P310 | Was a SimCore reseller link; Sparco's own `sparcousa.com/p-310` is live |
+| ⏸ 54 | SimCore OMP GT-WS | Pointed at `simcore.com.au/contact-us/`, now 404; site uses `/product/…` paths |
+| ⏸ 77 | OMP 320 Alu GT + SC Wireless Button Plate | Pointed at the delisted `std-ws-gen2-stealth` page |
 
 Racetech pricing was re-verified while confirming the moves: $199.99 / $229.99 / $199.99,
 matching the catalog's $200 / $230 / $200 — no price drift, purely a URL change.
@@ -146,7 +153,7 @@ Two further observations, recorded but not acted on:
 | 306 | Simagic GT1 | $309 | $239 (reg $309) | minor (−$70) |
 | 81 | MOZA GS V2P GT | $349 | $369 | minor (+$20) |
 | 83 | MOZA Vision GS | $749 | $699 | minor (−$50) |
-| 92 | VNM GT V1 | ~$350–$399 | $405 (reg $450) | minor (+~$51) |
+| ✅ 92 | VNM GT V1 | ~$350–$399 | $405 (reg $450) | minor (+~$51) |
 | 99 | VNM GT V1 (dup entry) | ~$350–$399 | $405 (reg $450) | minor (+~$51) |
 | 7 | Simucube × BST Delta Pro SC | $1,899+ | $1,799 | minor (−$100) |
 | 30 | GSI X-29 | $659–$750 | $650–$895 | minor (+$145 at top of range) |
@@ -181,6 +188,12 @@ Racetech 248/249/251.
 (329, 330, 331, all `isNew:true`); 1 stale `isNew` flag cleared (328, from the 2026-08-09
 cycle); 12 price fields corrected across 11 products (3 flagged ≥$150); review date
 bumped to August 21, 2026. `validate.sh` passed.
+
+Follow-up pass, same day, on user direction: ids 53, 90, 91 and 305 marked discontinued
+in place (one `cons` line and one `notes` sentence each; no specs, prices or buy links
+touched), and four dead `buy` URLs repointed (248, 249, 251, 92), all four re-verified
+200. Entry count, section counts and every price are unchanged by that pass, and
+`validate.sh` passed again.
 
 One structural bug fixed in passing: id 328 was the final array element and carried no
 trailing comma, so appending after it produced the exact "missing comma between entries
