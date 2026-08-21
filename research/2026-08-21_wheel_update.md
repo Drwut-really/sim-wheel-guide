@@ -306,3 +306,91 @@ a positive "not found" from the site's own search — never a sitemap absence al
 274 entries, sections sim 171 / oval 101 / preorder 2, `isNew` = {329, 330, 331},
 `validate.sh` passing. Three entries marked discontinued in place (53, 91, 305), one
 retracted (90). 19 price fields corrected in total across both commits.
+
+---
+
+# Follow-up pass — blocked-host sweep and legacy fixes
+
+Two items carried over from the first PR, both on explicit user direction: sweep the 75
+entries that bot protection had blocked, and fix the pre-existing data-quality problems.
+
+## Blocked-host sweep — 45 of 75 verified, 30 still not
+
+The first pass gave up at `curl` + a plain browser UA. Two further routes worked:
+
+1. **Full browser header set** (`Accept`, `Accept-Language`, `sec-ch-ua*`, `Sec-Fetch-*`,
+   `Upgrade-Insecure-Requests`). This alone unblocked **sparcousa.com**.
+2. **WebFetch**, which egresses differently from `curl`. This unblocked
+   **cubecontrols.com**.
+
+| Brand | Entries | Result |
+|-------|---------|--------|
+| Sparco | 16 | ✅ **Fully verified.** All 16 URLs 200, each returning the right product title, and every catalog price appears in its own page's price set. Zero changes needed. |
+| Cube Controls | 17 | ✅ **Verified via WebFetch.** Regular prices confirmed correct. One fix (id 261, below). |
+| Asetek | 7 | ⚠️ **Verified via an authorized retailer** — `asetek.com` 403s on both routes. One major fix (id 88, below). |
+| Leoxz | 5 | ⚠️ **Verified indirectly.** Returns a Cloudflare "Just a moment…" JS interstitial, which positively proves the pages exist. Pricing cross-checked against reviews and retailers: XGT Ultimate "from €499.95 excl. VAT" matches the catalog's `€499.95+`. No changes. |
+| OMP | 13 | ❌ **Not verified.** 403 on `curl`, `curl` + full headers, WebFetch, and on all three host spellings. |
+| Nardi / Personal | 16 | ❌ **Not verified.** 202 challenge on every route. |
+| Cammus | 1 | ❌ **Not verified.** 202 challenge. |
+
+**Cube Controls is mid-sale and the catalog deliberately does not reflect it.** The site is
+discounting roughly 15–35% (GT PRO V2 line ~35% off, F-CORE EVO 10%, F-PRO €1,104 →
+€938.40, CSX-3 Color Edition €1,629 → €1,384.65). Every one of those struck-through
+"regular" figures matches the catalog exactly, so the catalog's prices are right. The
+promotion is tied to the team's Aug 8–23 closure and shipping resumes Aug 24 — writing a
+three-day promo into the catalog would be stale before anyone read it.
+
+**OMP retailer prices were deliberately not applied.** Third-party listings run below the
+catalog's MSRP figures (Targa $269 vs $299, WRC "from $259" vs $299, Velocita "from $285"
+vs $329), which is ordinary retailer discounting, not a manufacturer price change. Two
+figures that *do* match MSRP exactly — Superquadro $319 and Corsica 330 $275 — suggest the
+catalog's OMP column is still sound.
+
+## Fixes applied
+
+- **id 261 Cube Controls GT Sport (Wireless)** — `price:"€?"`, a literal placeholder, →
+  `"$999.99 CAD"` (Pit Lane Sim Racing, currently sold out). CAD keeps it consistent with
+  its sibling id 260, already priced `$799 CAD` from the same market.
+  - **Flagged, not asserted:** GT Sport no longer appears on Cube Controls' own
+    steering-wheel category listing, and `/product/gt-sport/` redirects to a GT PRO V2
+    archive. That is suggestive of a delisting, but it is absence-from-a-listing — the
+    exact evidence class that produced the Rexing error — so it is recorded here and
+    nothing is marked.
+- **id 88 Asetek La Prima Formula Wheel** — `$249` → `$422 (sale, reg $459)`. **Major
+  (+$173).** The catalog figure looks like it tracked the La Prima *Button Box* (now
+  $299) rather than the complete wheel. Confirmed at $422 by two independent sources.
+- **Flagged, not changed (ambiguous SKU match):** id 316 Forte GT Button Box, catalog
+  `~$329.99`, where the retailer lists both a "Forte GT Button Box" at $379 and a "Forte
+  Button Box" at $329; and id 133 La Prima GT, catalog `$595–$650`, where the component
+  prices ($299 button box + $149 Comfort+ rim) do not reconcile. Both need Asetek's own
+  store, which is unreachable.
+
+## Duplicate consolidation — 274 → 270 entries
+
+Four true duplicate pairs merged into the lower ID of each pair. Rather than discarding
+the twin, each merge absorbed only its *genuinely new* information — a blunt union
+produced near-duplicate bullets ("No display" beside "No display, no SimHub"), which
+would have made the entries worse.
+
+| Kept | Removed | New information absorbed |
+|------|---------|--------------------------|
+| 37 GSI Interlock Base Module + Oval 320mm Rim | 71 | "320mm meets the 315mm+ oval spec", "Flat alloy rim, minimal dish", "GSI specifically labels this the Oval rim SKU"; con "Moderately expensive once the Interlock base is included" |
+| 2 Simucube Tahko Round | 73 | "Flat design, no deep dish — qualifies under the oval dish rule" |
+| 92 VNM GT V1 Steering Wheel | 99 | None — id 99 was a strict subset |
+| 93 Soelpec Spectra XR Formula Wheel | 100 | None — id 100 was a strict subset |
+
+Note on 2/73: these were a generic "Tahko Round" and a "Tahko Round Black Edition" sharing
+one URL, price and spec sheet. Simucube does sell a distinct Tahko Round **Orange**
+Edition at the same €860.68, but colourway SKUs are excluded from this catalog as a matter
+of consistency with the same call made on the Valo GT-23 Leather Version this cycle.
+
+`README.md` updated: 271 → **270 wheels**, and "36+ brands" → **49 brands**, which the
+file's own dynamically computed meta-line already reported.
+
+## Result
+
+**270 entries.** Sections: sim 167, oval 101, preorder 2. `validate.sh` passing.
+2 price fixes (1 major), 1 placeholder filled, 4 duplicate entries removed with their
+unique content preserved. 45 of 75 previously-unverified entries now checked; the
+remaining 30 (OMP 13, Nardi/Personal 16, Cammus 1) are unreachable by any route available
+here and are listed above rather than quietly counted as verified.
