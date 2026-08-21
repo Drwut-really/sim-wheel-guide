@@ -394,3 +394,78 @@ file's own dynamically computed meta-line already reported.
 unique content preserved. 45 of 75 previously-unverified entries now checked; the
 remaining 30 (OMP 13, Nardi/Personal 16, Cammus 1) are unreachable by any route available
 here and are listed above rather than quietly counted as verified.
+
+---
+
+# Third pass — GT Sport settled, last 30 checked via authorized retailers
+
+Two items carried over from the second PR, both on explicit user direction.
+
+## Cube Controls GT Sport (ids 260, 261) — settled: discontinued
+
+The previous pass flagged this without marking it, because the evidence was
+absence-from-a-listing — the exact class that produced the retracted Rexing claim. Pushed
+until it was settled, and it now rests on **positive** evidence:
+
+1. **Cube Controls' own product search for “GT Sport” returns no such wheel.** It returns
+   the *separate* GT PRO V2 Sport (€770) and GT-Cube Sport **accessories** (a badge, a
+   rim) — none of which is this product. Same evidence class that settled SimCore.
+2. Absent from their GT steering-wheel category page, which lists only the GT-X2.
+3. `/product/gt-sport/` redirects to a GT PRO V2 archive rather than a product.
+4. **Two authorized retailers no longer list it at all** (6 Sigma Sim Racing, Advanced
+   SimRacing), and a third (Pit Lane) shows it sold out behind a request-for-quote.
+
+Four independent sources, one of them a positive "no such product" from the manufacturer.
+Both entries marked discontinued in place, keeping specs and the $999.99 CAD / $799 CAD
+last-known prices.
+
+## The last 30 — verified for existence; prices deliberately not rewritten
+
+| Brand | Entries | Outcome |
+|-------|---------|---------|
+| OMP | 13 | Existence confirmed for 7 of 13 at an authorized dealer. **No price changes** — the catalog matches exactly on Superquadro ($319), Velocita Superleggero ($399) and Trecento ($279), and sits inside the observed dealer spread on the rest. |
+| Nardi | 11 | **All 11 models confirmed to exist** at two independent authorized dealers. **No price changes** — see below. |
+| Personal | 5 | Partially confirmed (Grinta found at $540). Neo Grinta, Trophy and Neo Eagle were not stocked by either dealer, which proves nothing either way. |
+| Cammus | 1 | Still unverified — 202 challenge on every route. |
+
+**Why the Nardi prices were not updated, despite every model reading high.** Both dealers
+price the whole Nardi line above the catalog, which looks like a list-price rise:
+
+| Entry | Catalog | JHPUSA | TF-Works |
+|-------|---------|--------|----------|
+| 231 Classic 330 | $405 | $436–$446 | $430 |
+| 236 Gara 350 | $387 | $426 | $401 |
+| 234 Deep Corn 330 | $396 | $436 | $443 |
+
+But the two dealers disagree with each other by $10–$45 on the same rim, so neither
+establishes MSRP — and `nardi-personal.com` is unreachable. Rewriting 16 entries to one
+dealer's markup would be trading a stale number for an arbitrary one.
+
+There is also a consistency argument, and it is the stronger one. In the previous pass
+OMP's retailer prices were *below* catalog and were rejected as ordinary discounting.
+Accepting Nardi's dealer markups now while rejecting OMP's dealer discounts then would be
+incoherent — picking whichever direction happened to confirm a change. Both are dealer
+prices; neither is MSRP; neither gets applied.
+
+**Recorded for the next cycle:** the Nardi/Personal column reads roughly 5–12% below
+current US retail at two authorized dealers, and should be re-based the first time
+`nardi-personal.com` is reachable.
+
+## Also noted, not changed
+
+Cube Controls' USD entries disagree with the manufacturer's euro pricing in ways that
+predate this cycle — id 259 Reparto Corse Suede ($987 catalog vs $1,045 at retail vs
+€898.30 list) and id 23 Mercedes-AMG GT Edition (€1,500+ catalog vs $999.99 at retail).
+The Cube Controls block mixes EUR, USD and CAD across entries. That is a currency-basis
+problem for the whole brand rather than a set of individual price errors, and it wants a
+deliberate decision about which currency the catalog quotes.
+
+## Result
+
+**270 entries**, sections unchanged (sim 167, oval 101, preorder 2). Two entries marked
+discontinued in place (260, 261). No price changes this pass — every candidate failed the
+MSRP bar. `validate.sh` passing.
+
+Verification coverage across the whole review is now **240 of 270 entries** confirmed by
+manufacturer feed, manufacturer page, or authorized dealer; 29 confirmed to exist but
+without an establishable MSRP; 1 (Cammus, id 328) unverified.
