@@ -100,9 +100,14 @@ was removed — the same non-destructive treatment given to id 29 on 2026-08-09.
 | id | Entry | Evidence |
 |----|-------|----------|
 | 305 | Simagic GT4 | `simagic.com/products/gt4-formula` returns a real 404 ("Page not found"); absent from the `/collections/steering-wheel` listing. Marketing page `/pages/details-gt4` still resolves but is not purchasable. Still listed by third-party retailers (Simline, Ricmotech, Pit Lane) as remaining stock. |
-| 90 | Rexing Mayaris 2 | Absent from `rexing.eu/product-sitemap.xml`. The sitemap's only complete wheel is the Timun GT (id 275); Mayaris survives only as spare parts (`sticker-set-for-mayaris-2`, `pcb_may1-0`). Third-party retailers (Demon Tweeks, Trak Racer, Simufy, racegear.eu) still list stock. |
-| 91 | Rexing Mayaris V1.1 | Same as above. |
+| 91 | Rexing Mayaris V1.1 | Rexing's steering-wheel category page reports "Showing all 7 results" and lists only the Timun GT v1.1, the Mayaris 2 and a Mayaris 2 "Imperfect Deal" — no V1. The site nav carries a separate "Previous models support" section. Weaker evidence than the two above (absence from a listing, not a positive statement), and the entry's wording says so. |
 | 53 | SimCore STD-WS GEN2 | SimCore's shop lists six `std-wd-gen2-*` colourways (wired) and six `std-98-*`, but **no** `std-ws-*` SKU. The wireless variant appears dropped; the wired GEN2 remains at AUD$595. SimCore still sells the Simucube wireless BLE button plate module separately. |
+
+**Retracted — claimed discontinued, then disproved on review (see "Verification passes"):**
+
+- **id 90 Rexing Mayaris 2** — **not discontinued.** Still sold by Rexing directly at
+  €1,360 excl. VAT with a 10-day lead time, plus a discounted "Imperfect Deal" unit at
+  €1,088 excl. VAT. The marking was applied and then reverted in full.
 
 **Out of stock, not discontinued — no action recommended:**
 
@@ -199,3 +204,105 @@ One structural bug fixed in passing: id 328 was the final array element and carr
 trailing comma, so appending after it produced the exact "missing comma between entries
 with a `// comment` between them" syntax error listed in the project's known-bugs notes.
 Caught by `validate.sh` before commit.
+
+
+---
+
+# Verification passes (post-commit review)
+
+The first commit was reviewed adversarially — attacking each claim rather than
+re-confirming it. Three passes; two found real defects in my own work.
+
+## Pass 1 — structure
+
+All three new entries carry every required field; all three `subcat` values land in
+buckets that already exist in their section (`VNM Simulation` 3, `Simucube Brand` 9,
+`300mm` 5); no duplicate IDs; `isNew` is exactly {329, 330, 331}. Confirmed the new
+id 331 (Interlock Ultra 300mm **rim**, $250, `conn:"gray"`, 0 inputs) does not duplicate
+the existing id 36 (Interlock Ultra **module**, $695–$925, `conn:"blue"`, 30 inputs).
+
+## Pass 2 — price precision (5 defects found in my own edits)
+
+Reading Shopify's variant feed with `compare_at_price`, rather than a rendered page,
+showed I had collapsed several variant ranges to a single figure:
+
+| id | Model | I had written | Correct | Why |
+|----|-------|---------------|---------|-----|
+| 306 | Simagic GT1 | $239 (reg $309) | $239–$269 (reg $309–$329) | SR variants $239, SD variants $269 — the entry covers both |
+| 313 | Simagic NEO X-350W | $249 (reg $309) | $239 (reg $329) | The one NEO X variant priced differently from its three siblings; I had applied the sibling price to all four |
+| 308 | Simagic GT Pro Hub K | $339 | $299–$339 | Leather bundles are $299 (reg $369); the entry explicitly covers the bundle options |
+| 81 | MOZA GS V2P GT | $369 | $369 (sale, reg $399) | Live compare-at price; matches the style of sibling MOZA entries |
+| 83 | MOZA Vision GS | $699 | $699 (sale, reg $749) | Same |
+
+Verified correct and left alone: id 307 GT Pro Hub ($339 — the $438–$448 variants bundle
+a rim, which that entry explicitly excludes), ids 310–312 NEO X ($249/reg $309), id 304
+GTS, id 309 GT Neo, id 302 FX Pro, id 303 FX Formula, ids 318–320 Zeus, and the GSI
+ranges rebuilt in the first commit (30, 35, 37, 71).
+
+## Pass 3 — attacking the discontinuation claims (1 claim retracted)
+
+Each of the four claims was re-tested against a *different* source than the one that
+produced it.
+
+- **id 305 Simagic GT4 — HOLDS, strengthened.** Simagic's full Shopify feed carries 114
+  products and **zero** handles containing `gt4`, alongside the hard 404. Positive
+  evidence from a live feed, not an absence in a sitemap.
+- **id 53 SimCore STD-WS GEN2 — HOLDS, strengthened.** SimCore's own product search for
+  "STD-WS" returns **"No products were found"** — a positive statement from the site
+  itself, not an inference.
+- **id 90 Rexing Mayaris 2 — RETRACTED. The claim was wrong.** Rexing's steering-wheel
+  *category page* shows the Mayaris 2 in stock at €1,360 excl. VAT with a 10-day lead
+  time. My evidence had been its absence from `rexing.eu/product-sitemap.xml` — and that
+  sitemap is simply stale: it omits the live product URL
+  (`/product/rexing-formula-steering-wheel-mayaris-2/`) *and* the "Previous models
+  support" page that appears in the site nav. The discontinued `cons` line and `notes`
+  sentence were both removed.
+- **id 91 Rexing Mayaris V1.1 — HELD, but wording weakened.** Still absent from a
+  complete "Showing all 7 results" category listing, which is real evidence — but it is
+  absence-from-a-listing, not a positive statement, and the note now says exactly that
+  instead of asserting Rexing "no longer sells it directly".
+
+**Lesson for the next cycle, and for `wheel_research_prompt.md`:** a sitemap is not a
+catalog. Rexing's product sitemap was stale in both directions. Delisting claims should
+require either a hard 404 *plus* absence from a live product feed or category listing, or
+a positive "not found" from the site's own search — never a sitemap absence alone.
+
+## Corrections that followed from Pass 3
+
+- **id 90 Mayaris 2** — discontinued marking reverted; `buy` repointed to the live slug
+  `/product/rexing-formula-steering-wheel-mayaris-2/` (the old `/rexing-formula-wheel-mayaris-2/`
+  404s — same-product URL rot, the class approved for fixing); price `~€1,100–€1,300` →
+  `€1360 (export) / €1700 (EU)`, matching the excl./incl.-VAT convention already used by
+  the Timun entry (25% HR VAT: 1360 × 1.25 = 1700). This is a **major** increase against
+  the stale catalog figure. The first `cons` line, which quoted the old "~€1,100+" price,
+  was updated to match.
+- **id 275 Rexing Timun GT** — `€1340 (export) / €1675 (EU)` → `€1420 (export) / €1775
+  (EU)`; also now shown out of stock on Rexing's own store. Minor (+€80 export).
+
+## Coverage limits — stated plainly
+
+- **75 entries were never link-verified.** `cubecontrols.com` (17), `sparcousa.com` (16),
+  `nardi-personal.com` (16), `us.ompracing.com` (13), `asetek.com` (7), `leoxz.com` (5)
+  and `cammusracing.com` (1) return 403/202 bot challenges. Spot-checking confirmed the
+  bodies are small challenge pages with no 404 language, and Cube Controls' Phoenix page
+  was reachable by a second route and is live — but "probably fine" is not "verified",
+  and these entries carry no link-rot guarantee from this cycle.
+- **Cube Controls prices were not systematically re-checked** for the same reason. The
+  one entry that was checked (id 327 Phoenix) is correct: €963 incl. VAT on the product
+  page, matching the catalog's "From €789 (€963 incl. VAT)" at 22% IT VAT.
+- **Gamescom 2026 (Aug 26–30) is not covered** — it opens after this review date.
+
+## Pre-existing data-quality issues found while verifying (not fixed)
+
+- **id 261 Cube Controls GT Sport (Wireless)** has `price:"€?"` — a placeholder, not a
+  price.
+- **Duplicate entries:** ids 37/71 (GSI Interlock + Oval 320mm Rim — identical product
+  and URL), ids 92/99 (VNM GT V1), and probably ids 93/100 (Soelpec Spectra XR) and
+  2/73 (Simucube Tahko Round). Ids 43/160/161 share one P1Sim URL but are distinct
+  models.
+
+## Final state after all passes
+
+274 entries, sections sim 171 / oval 101 / preorder 2, `isNew` = {329, 330, 331},
+`validate.sh` passing. Three entries marked discontinued in place (53, 91, 305), one
+retracted (90). 19 price fields corrected in total across both commits.
