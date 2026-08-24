@@ -469,3 +469,39 @@ MSRP bar. `validate.sh` passing.
 Verification coverage across the whole review is now **240 of 270 entries** confirmed by
 manufacturer feed, manufacturer page, or authorized dealer; 29 confirmed to exist but
 without an establishable MSRP; 1 (Cammus, id 328) unverified.
+
+---
+
+# Fourth pass — Sim-Lab GTSL Pro ship-date re-check (2026-08-24)
+
+The previous pass left id 326 with `releaseDate:"2026-08-24"` and flagged it for re-checking
+on that date. Re-checked on the day.
+
+**Still a pre-order, and it has slipped a second time.** Sim-Lab's EU store now states,
+verbatim: *"✔ Preorder. New orders ship from the end of September."* The US store still
+reads *"Pre-orders open"* at $599 (reg. $649), with no ship date published at all.
+
+Slip history: first week of August → 4th week of August → end of September 2026.
+
+Applied: `releaseDate` `2026-08-24` → `2026-09`; the stale con line and `notes` rewritten
+to quote the brand's current wording and record the full slip history. Section stays
+`preorder` — it has **not** shipped, so the `preorder` → `sim` move the Aug 9 cycle applied
+to the Simagic Zeus wheels and the Cube Controls Phoenix is not warranted here. Price
+`$599–$649` re-verified correct against the US store and unchanged.
+
+**A stale claim removed rather than refreshed.** The old `notes` asserted "EU price €549
+(reg. €599)". That could not be reproduced: sim-lab.eu prices in the visitor's detected
+region, and this session geolocates to Panama/USD, so the EU storefront returned 557/607
+in USD rather than euros. Rather than carry forward an unverifiable euro figure or invent
+a converted one, the euro claim was dropped and the notes now quote only what was directly
+observed. The same care that retracted the Rexing claim applies to prices, not just
+delistings.
+
+Method note: both stores were read through Shopify's `/products/<handle>.json` endpoint
+*and* the rendered HTML. The rendered page was necessary — the availability sentence lives
+in the theme markup, not in `body_html`, so the JSON endpoint alone would have missed the
+September date entirely.
+
+**Gamescom 2026 (Aug 26–30) is deliberately out of scope**, per user direction: it belongs
+to the next review cycle rather than this one. The MOZA × Ford Mustang GTD remains excluded
+as teaser-only and should be the first thing that cycle checks.
